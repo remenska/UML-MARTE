@@ -1,0 +1,49 @@
+I-Logix-RPY-Archive version 8.6.0 Java 4012249
+{ ISubsystem 
+	- _id = GUID e809247d-f2b5-11e1-bb60-c82a143cf4b0;
+	- _myState = 8192;
+	- _name = "WorkloadManagementSystem";
+	- _lastID = 4;
+	- Declaratives = { IRPYRawContainer 
+		- size = 4;
+		- value = 
+		{ ISubsystem 
+			- fileName = "Client";
+			- _id = GUID 074f1c63-f2b6-11e1-984c-c82a143cf4b0;
+		}
+		{ ISubsystem 
+			- fileName = "DB";
+			- _id = GUID 8340191d-f2b6-11e1-988c-c82a143cf4b0;
+		}
+		{ ISubsystem 
+			- fileName = "Executor";
+			- _id = GUID a34ce32a-f2b6-11e1-a32c-c82a143cf4b0;
+		}
+		{ ISubsystem 
+			- fileName = "Service";
+			- _id = GUID a34ce458-f2b6-11e1-a32c-c82a143cf4b0;
+		}
+	}
+	- weakCGTime = 8.30.2012::16:23:39;
+	- strongCGTime = 8.30.2012::16:19:6;
+	- _defaultComposite = GUID e809247e-f2b5-11e1-bb60-c82a143cf4b0;
+	- _eventsBaseID = -1;
+	- Classes = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IClass 
+			- _id = GUID e809247e-f2b5-11e1-bb60-c82a143cf4b0;
+			- _myState = 40960;
+			- _name = "TopLevel";
+			- weakCGTime = 1.1.1970::1:0:0;
+			- strongCGTime = 1.1.1970::1:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- _configurationRelatedTime = 1.1.1970::1:0:0;
+}
+

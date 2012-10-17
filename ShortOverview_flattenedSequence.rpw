@@ -1,0 +1,819 @@
+I-Logix-RPY-Archive version 8.6.0 * 4012249
+{ CGEMdiWorkspace 
+	- stubList = { IRPYRawContainer 
+		- size = 0;
+	}
+	- isLoadOnDemand = 0;
+	- myViewsWithID = { IRPYRawContainer 
+		- size = 28;
+		- value = 
+		{ CGEMdiDiagramParams 
+			- _placement = { CCommon_WINDOWPLACEMENT 
+				- m_nLength = 44;
+				- m_nFlags = 0;
+				- m_showCmd = 1;
+				- m_ptMinPositionX = -1;
+				- m_ptMinPositionY = -1;
+				- m_ptMaxPositionX = -4;
+				- m_ptMaxPositionY = -23;
+				- m_nLeft = 160;
+				- m_nTop = 176;
+				- m_nRight = 814;
+				- m_nBottom = 574;
+			}
+			- _wasOpenedOnCloseProject = 1;
+			- _theDiagram = { IHandle 
+				- _m2Class = "IMSC";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "Example";
+				- _id = GUID ca61bac4-06fd-11e2-901a-0022645fb25d;
+			}
+			- _UpLeft = 0 40 ;
+			- _DownRight = 680 399 ;
+			- _instanceName = "";
+			- m_nDiagramIndex = 27;
+		}
+		{ CGEMdiDiagramParams 
+			- _placement = { CCommon_WINDOWPLACEMENT 
+				- m_nLength = 44;
+				- m_nFlags = 0;
+				- m_showCmd = 1;
+				- m_ptMinPositionX = -1;
+				- m_ptMinPositionY = -1;
+				- m_ptMaxPositionX = -4;
+				- m_ptMaxPositionY = -23;
+				- m_nLeft = 160;
+				- m_nTop = 176;
+				- m_nRight = 939;
+				- m_nBottom = 574;
+			}
+			- _wasOpenedOnCloseProject = 1;
+			- _theDiagram = { IHandle 
+				- _m2Class = "IMSC";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "Example_modified";
+				- _id = GUID cadc0efb-0948-11e2-8b20-0022645fb25d;
+			}
+			- _UpLeft = 0 356 ;
+			- _DownRight = 715 671 ;
+			- _instanceName = "";
+			- m_nDiagramIndex = 26;
+		}
+		{ CGEMdiDiagramParams 
+			- _placement = { CCommon_WINDOWPLACEMENT 
+				- m_nLength = 44;
+				- m_nFlags = 0;
+				- m_showCmd = 1;
+				- m_ptMinPositionX = -1;
+				- m_ptMinPositionY = -1;
+				- m_ptMaxPositionX = -4;
+				- m_ptMaxPositionY = -23;
+				- m_nLeft = 100;
+				- m_nTop = 110;
+				- m_nRight = 1380;
+				- m_nBottom = 700;
+			}
+			- _wasOpenedOnCloseProject = 1;
+			- _theDiagram = { IHandle 
+				- _m2Class = "IMSC";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "ExecutorQueues_popTask";
+				- _id = GUID 225d0abf-f737-11e1-a25c-0022645fb25d;
+			}
+			- _UpLeft = 0 0 ;
+			- _DownRight = 1303 544 ;
+			- _instanceName = "";
+			- m_nDiagramIndex = 8;
+		}
+		{ CGEMdiDiagramParams 
+			- _placement = { CCommon_WINDOWPLACEMENT 
+				- m_nLength = 44;
+				- m_nFlags = 0;
+				- m_showCmd = 1;
+				- m_ptMinPositionX = -1;
+				- m_ptMinPositionY = -1;
+				- m_ptMaxPositionX = -4;
+				- m_ptMaxPositionY = -23;
+				- m_nLeft = 120;
+				- m_nTop = 132;
+				- m_nRight = 1400;
+				- m_nBottom = 722;
+			}
+			- _wasOpenedOnCloseProject = 1;
+			- _theDiagram = { IHandle 
+				- _m2Class = "IMSC";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "ExecutorQueues_pushTask";
+				- _id = GUID 11de8bd0-f735-11e1-a2ba-0022645fb25d;
+			}
+			- _UpLeft = 0 0 ;
+			- _DownRight = 1303 544 ;
+			- _instanceName = "";
+			- m_nDiagramIndex = 7;
+		}
+		{ CGEMdiDiagramParams 
+			- _placement = { CCommon_WINDOWPLACEMENT 
+				- m_nLength = 44;
+				- m_nFlags = 0;
+				- m_showCmd = 1;
+				- m_ptMinPositionX = -1;
+				- m_ptMinPositionY = -1;
+				- m_ptMaxPositionX = -4;
+				- m_ptMaxPositionY = -23;
+				- m_nLeft = 140;
+				- m_nTop = 154;
+				- m_nRight = 1420;
+				- m_nBottom = 744;
+			}
+			- _wasOpenedOnCloseProject = 1;
+			- _theDiagram = { IHandle 
+				- _m2Class = "IMSC";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "ExecutorState_removeTask";
+				- _id = GUID bca05343-f6e6-11e1-bf2e-c82a143cf4b0;
+			}
+			- _UpLeft = 0 0 ;
+			- _DownRight = 1303 544 ;
+			- _instanceName = "";
+			- m_nDiagramIndex = 6;
+		}
+		{ CGEMdiDiagramParams 
+			- _placement = { CCommon_WINDOWPLACEMENT 
+				- m_nLength = 44;
+				- m_nFlags = 0;
+				- m_showCmd = 1;
+				- m_ptMinPositionX = -1;
+				- m_ptMinPositionY = -1;
+				- m_ptMaxPositionX = -4;
+				- m_ptMaxPositionY = -23;
+				- m_nLeft = 100;
+				- m_nTop = 110;
+				- m_nRight = 879;
+				- m_nBottom = 508;
+			}
+			- _wasOpenedOnCloseProject = 1;
+			- _theDiagram = { IHandle 
+				- _m2Class = "IMSC";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "SequenceDiagram_ClientSide";
+				- _id = GUID a99097c8-eaaa-11e1-bbc6-0022645fb25d;
+			}
+			- _UpLeft = 0 2702 ;
+			- _DownRight = 751 3033 ;
+			- _instanceName = "";
+			- m_nDiagramIndex = 24;
+		}
+		{ CGEMdiDiagramParams 
+			- _placement = { CCommon_WINDOWPLACEMENT 
+				- m_nLength = 44;
+				- m_nFlags = 1;
+				- m_showCmd = 1;
+				- m_ptMinPositionX = -1;
+				- m_ptMinPositionY = -1;
+				- m_ptMaxPositionX = -4;
+				- m_ptMaxPositionY = -23;
+				- m_nLeft = 140;
+				- m_nTop = 154;
+				- m_nRight = 926;
+				- m_nBottom = 552;
+			}
+			- _wasOpenedOnCloseProject = 1;
+			- _theDiagram = { IHandle 
+				- _m2Class = "IMSC";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "SequenceDiagram_ServerSide";
+				- _id = GUID 8e3cba1f-eacb-11e1-8014-0022645fb25d;
+			}
+			- _UpLeft = 0 3 ;
+			- _DownRight = 758 334 ;
+			- _instanceName = "";
+			- m_nDiagramIndex = 22;
+		}
+		{ CGEMdiDiagramParams 
+			- _placement = { CCommon_WINDOWPLACEMENT 
+				- m_nLength = 44;
+				- m_nFlags = 0;
+				- m_showCmd = 1;
+				- m_ptMinPositionX = -1;
+				- m_ptMinPositionY = -1;
+				- m_ptMaxPositionX = -4;
+				- m_ptMaxPositionY = -23;
+				- m_nLeft = 40;
+				- m_nTop = 44;
+				- m_nRight = 1320;
+				- m_nBottom = 634;
+			}
+			- _wasOpenedOnCloseProject = 1;
+			- _theDiagram = { IHandle 
+				- _m2Class = "IMSC";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "__dispatchTask";
+				- _id = GUID 092a8afd-f471-11e1-895a-c82a143cf4b0;
+			}
+			- _UpLeft = 893 1040 ;
+			- _DownRight = 2196 1584 ;
+			- _instanceName = "";
+			- m_nDiagramIndex = 25;
+		}
+		{ CGEMdiDiagramParams 
+			- _placement = { CCommon_WINDOWPLACEMENT 
+				- m_nLength = 44;
+				- m_nFlags = 0;
+				- m_showCmd = 1;
+				- m_ptMinPositionX = -1;
+				- m_ptMinPositionY = -1;
+				- m_ptMaxPositionX = -4;
+				- m_ptMaxPositionY = -23;
+				- m_nLeft = 260;
+				- m_nTop = 286;
+				- m_nRight = 1540;
+				- m_nBottom = 876;
+			}
+			- _wasOpenedOnCloseProject = 1;
+			- _theDiagram = { IHandle 
+				- _m2Class = "IMSC";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "__doPeriodicStuff";
+				- _id = GUID 4f2f82ee-f746-11e1-a9fc-0022645fb25d;
+			}
+			- _UpLeft = 0 0 ;
+			- _DownRight = 1303 544 ;
+			- _instanceName = "";
+			- m_nDiagramIndex = 14;
+		}
+		{ CGEMdiDiagramParams 
+			- _placement = { CCommon_WINDOWPLACEMENT 
+				- m_nLength = 44;
+				- m_nFlags = 0;
+				- m_showCmd = 1;
+				- m_ptMinPositionX = -1;
+				- m_ptMinPositionY = -1;
+				- m_ptMaxPositionX = -4;
+				- m_ptMaxPositionY = -23;
+				- m_nLeft = 40;
+				- m_nTop = 44;
+				- m_nRight = 819;
+				- m_nBottom = 442;
+			}
+			- _wasOpenedOnCloseProject = 1;
+			- _theDiagram = { IHandle 
+				- _m2Class = "IMSC";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "__fillExecutors";
+				- _id = GUID 9eb49cd8-f48c-11e1-ae5e-c82a143cf4b0;
+			}
+			- _UpLeft = 0 334 ;
+			- _DownRight = 751 665 ;
+			- _instanceName = "";
+			- m_nDiagramIndex = 20;
+		}
+		{ CGEMdiDiagramParams 
+			- _placement = { CCommon_WINDOWPLACEMENT 
+				- m_nLength = 44;
+				- m_nFlags = 0;
+				- m_showCmd = 1;
+				- m_ptMinPositionX = -1;
+				- m_ptMinPositionY = -1;
+				- m_ptMaxPositionX = -4;
+				- m_ptMaxPositionY = -23;
+				- m_nLeft = 60;
+				- m_nTop = 66;
+				- m_nRight = 839;
+				- m_nBottom = 464;
+			}
+			- _wasOpenedOnCloseProject = 1;
+			- _theDiagram = { IHandle 
+				- _m2Class = "IMSC";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "__freezeTask";
+				- _id = GUID 5a512863-f606-11e1-9ede-c82a143cf4b0;
+			}
+			- _UpLeft = 0 119 ;
+			- _DownRight = 751 450 ;
+			- _instanceName = "";
+			- m_nDiagramIndex = 19;
+		}
+		{ CGEMdiDiagramParams 
+			- _placement = { CCommon_WINDOWPLACEMENT 
+				- m_nLength = 44;
+				- m_nFlags = 0;
+				- m_showCmd = 1;
+				- m_ptMinPositionX = -1;
+				- m_ptMinPositionY = -1;
+				- m_ptMaxPositionX = -4;
+				- m_ptMaxPositionY = -23;
+				- m_nLeft = 220;
+				- m_nTop = 242;
+				- m_nRight = 1500;
+				- m_nBottom = 832;
+			}
+			- _wasOpenedOnCloseProject = 1;
+			- _theDiagram = { IHandle 
+				- _m2Class = "IMSC";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "__sendTaskToExecutor";
+				- _id = GUID 927b3f4f-f486-11e1-b056-c82a143cf4b0;
+			}
+			- _UpLeft = 184 896 ;
+			- _DownRight = 1487 1440 ;
+			- _instanceName = "";
+			- m_nDiagramIndex = 16;
+		}
+		{ CGEMdiDiagramParams 
+			- _placement = { CCommon_WINDOWPLACEMENT 
+				- m_nLength = 44;
+				- m_nFlags = 0;
+				- m_showCmd = 1;
+				- m_ptMinPositionX = -1;
+				- m_ptMinPositionY = -1;
+				- m_ptMaxPositionX = -4;
+				- m_ptMaxPositionY = -23;
+				- m_nLeft = 240;
+				- m_nTop = 264;
+				- m_nRight = 1520;
+				- m_nBottom = 854;
+			}
+			- _wasOpenedOnCloseProject = 1;
+			- _theDiagram = { IHandle 
+				- _m2Class = "IMSC";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "__unfreezeTasks";
+				- _id = GUID 01d65108-f742-11e1-a48a-0022645fb25d;
+			}
+			- _UpLeft = 0 0 ;
+			- _DownRight = 1303 544 ;
+			- _instanceName = "";
+			- m_nDiagramIndex = 15;
+		}
+		{ CGEMdiDiagramParams 
+			- _placement = { CCommon_WINDOWPLACEMENT 
+				- m_nLength = 44;
+				- m_nFlags = 0;
+				- m_showCmd = 1;
+				- m_ptMinPositionX = -1;
+				- m_ptMinPositionY = -1;
+				- m_ptMaxPositionX = -4;
+				- m_ptMaxPositionY = -23;
+				- m_nLeft = 0;
+				- m_nTop = 0;
+				- m_nRight = 779;
+				- m_nBottom = 398;
+			}
+			- _wasOpenedOnCloseProject = 1;
+			- _theDiagram = { IHandle 
+				- _m2Class = "IMSC";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "addExecutor";
+				- _id = GUID 0731f9b8-f364-11e1-9746-0022645fb25d;
+			}
+			- _UpLeft = 0 244 ;
+			- _DownRight = 751 575 ;
+			- _instanceName = "";
+			- m_nDiagramIndex = 18;
+		}
+		{ CGEMdiDiagramParams 
+			- _placement = { CCommon_WINDOWPLACEMENT 
+				- m_nLength = 44;
+				- m_nFlags = 0;
+				- m_showCmd = 1;
+				- m_ptMinPositionX = -1;
+				- m_ptMinPositionY = -1;
+				- m_ptMaxPositionX = -4;
+				- m_ptMaxPositionY = -23;
+				- m_nLeft = 0;
+				- m_nTop = 0;
+				- m_nRight = 1280;
+				- m_nBottom = 590;
+			}
+			- _wasOpenedOnCloseProject = 1;
+			- _theDiagram = { IHandle 
+				- _m2Class = "IMSC";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "addTask";
+				- _id = GUID 2901ca79-f379-11e1-b73e-0022645fb25d;
+			}
+			- _UpLeft = 0 160 ;
+			- _DownRight = 1303 704 ;
+			- _instanceName = "";
+			- m_nDiagramIndex = 13;
+		}
+		{ CGEMdiDiagramParams 
+			- _placement = { CCommon_WINDOWPLACEMENT 
+				- m_nLength = 44;
+				- m_nFlags = 0;
+				- m_showCmd = 1;
+				- m_ptMinPositionX = -1;
+				- m_ptMinPositionY = -1;
+				- m_ptMaxPositionX = -4;
+				- m_ptMaxPositionY = -23;
+				- m_nLeft = 220;
+				- m_nTop = 242;
+				- m_nRight = 1488;
+				- m_nBottom = 832;
+			}
+			- _wasOpenedOnCloseProject = 1;
+			- _theDiagram = { IHandle 
+				- _m2Class = "IMSC";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "alternatives";
+				- _id = GUID 2b8b5861-0b1f-11e2-a354-0022645fb25d;
+			}
+			- _UpLeft = 0 0 ;
+			- _DownRight = 2032 857 ;
+			- _instanceName = "";
+			- m_nDiagramIndex = 17;
+		}
+		{ CGEMdiDiagramParams 
+			- _placement = { CCommon_WINDOWPLACEMENT 
+				- m_nLength = 44;
+				- m_nFlags = 0;
+				- m_showCmd = 1;
+				- m_ptMinPositionX = -1;
+				- m_ptMinPositionY = -1;
+				- m_ptMaxPositionX = -4;
+				- m_ptMaxPositionY = -23;
+				- m_nLeft = 20;
+				- m_nTop = 22;
+				- m_nRight = 1300;
+				- m_nBottom = 612;
+			}
+			- _wasOpenedOnCloseProject = 1;
+			- _theDiagram = { IHandle 
+				- _m2Class = "IMSC";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "cleanState";
+				- _id = GUID a635c6d8-f517-11e1-bf52-c82a143cf4b0;
+			}
+			- _UpLeft = 0 150 ;
+			- _DownRight = 1303 694 ;
+			- _instanceName = "";
+			- m_nDiagramIndex = 12;
+		}
+		{ CGEMdiDiagramParams 
+			- _placement = { CCommon_WINDOWPLACEMENT 
+				- m_nLength = 44;
+				- m_nFlags = 0;
+				- m_showCmd = 1;
+				- m_ptMinPositionX = -1;
+				- m_ptMinPositionY = -1;
+				- m_ptMaxPositionX = -4;
+				- m_ptMaxPositionY = -23;
+				- m_nLeft = 40;
+				- m_nTop = 44;
+				- m_nRight = 1320;
+				- m_nBottom = 634;
+			}
+			- _wasOpenedOnCloseProject = 1;
+			- _theDiagram = { IHandle 
+				- _m2Class = "IMSC";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "commitChanges";
+				- _id = GUID 550ba077-f11f-11e1-8fe0-0022645fb25d;
+			}
+			- _UpLeft = 0 1557 ;
+			- _DownRight = 1303 2101 ;
+			- _instanceName = "";
+			- m_nDiagramIndex = 11;
+		}
+		{ CGEMdiDiagramParams 
+			- _placement = { CCommon_WINDOWPLACEMENT 
+				- m_nLength = 44;
+				- m_nFlags = 0;
+				- m_showCmd = 1;
+				- m_ptMinPositionX = -1;
+				- m_ptMinPositionY = -1;
+				- m_ptMaxPositionX = -4;
+				- m_ptMaxPositionY = -23;
+				- m_nLeft = 60;
+				- m_nTop = 66;
+				- m_nRight = 1340;
+				- m_nBottom = 656;
+			}
+			- _wasOpenedOnCloseProject = 1;
+			- _theDiagram = { IHandle 
+				- _m2Class = "IMSC";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "conn_connected";
+				- _id = GUID 0f5c9d24-f361-11e1-b340-0022645fb25d;
+			}
+			- _UpLeft = 0 116 ;
+			- _DownRight = 1303 660 ;
+			- _instanceName = "";
+			- m_nDiagramIndex = 10;
+		}
+		{ CGEMdiDiagramParams 
+			- _placement = { CCommon_WINDOWPLACEMENT 
+				- m_nLength = 44;
+				- m_nFlags = 0;
+				- m_showCmd = 1;
+				- m_ptMinPositionX = -1;
+				- m_ptMinPositionY = -1;
+				- m_ptMaxPositionX = -4;
+				- m_ptMaxPositionY = -23;
+				- m_nLeft = 80;
+				- m_nTop = 88;
+				- m_nRight = 1360;
+				- m_nBottom = 678;
+			}
+			- _wasOpenedOnCloseProject = 1;
+			- _theDiagram = { IHandle 
+				- _m2Class = "IMSC";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "conn_drop";
+				- _id = GUID 8a475077-f04e-11e1-bd00-0022645fb25d;
+			}
+			- _UpLeft = 0 0 ;
+			- _DownRight = 1303 544 ;
+			- _instanceName = "";
+			- m_nDiagramIndex = 9;
+		}
+		{ CGEMdiDiagramParams 
+			- _placement = { CCommon_WINDOWPLACEMENT 
+				- m_nLength = 44;
+				- m_nFlags = 0;
+				- m_showCmd = 1;
+				- m_ptMinPositionX = -1;
+				- m_ptMinPositionY = -1;
+				- m_ptMaxPositionX = -4;
+				- m_ptMaxPositionY = -23;
+				- m_nLeft = 160;
+				- m_nTop = 176;
+				- m_nRight = 1440;
+				- m_nBottom = 766;
+			}
+			- _wasOpenedOnCloseProject = 1;
+			- _theDiagram = { IHandle 
+				- _m2Class = "IMSC";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "fastTrackDispatch";
+				- _id = GUID 9968c2bf-f5da-11e1-a82a-0022645fb25d;
+			}
+			- _UpLeft = 0 160 ;
+			- _DownRight = 1303 704 ;
+			- _instanceName = "";
+			- m_nDiagramIndex = 5;
+		}
+		{ CGEMdiDiagramParams 
+			- _placement = { CCommon_WINDOWPLACEMENT 
+				- m_nLength = 44;
+				- m_nFlags = 0;
+				- m_showCmd = 1;
+				- m_ptMinPositionX = -1;
+				- m_ptMinPositionY = -1;
+				- m_ptMaxPositionX = -4;
+				- m_ptMaxPositionY = -23;
+				- m_nLeft = 180;
+				- m_nTop = 198;
+				- m_nRight = 1460;
+				- m_nBottom = 788;
+			}
+			- _wasOpenedOnCloseProject = 1;
+			- _theDiagram = { IHandle 
+				- _m2Class = "IMSC";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "initializeHandler";
+				- _id = GUID ab6fc325-f82d-11e1-8c60-0022645fb25d;
+			}
+			- _UpLeft = 0 0 ;
+			- _DownRight = 1303 544 ;
+			- _instanceName = "";
+			- m_nDiagramIndex = 4;
+		}
+		{ CGEMdiDiagramParams 
+			- _placement = { CCommon_WINDOWPLACEMENT 
+				- m_nLength = 44;
+				- m_nFlags = 0;
+				- m_showCmd = 1;
+				- m_ptMinPositionX = -1;
+				- m_ptMinPositionY = -1;
+				- m_ptMaxPositionX = -4;
+				- m_ptMaxPositionY = -23;
+				- m_nLeft = 200;
+				- m_nTop = 220;
+				- m_nRight = 1480;
+				- m_nBottom = 810;
+			}
+			- _wasOpenedOnCloseProject = 1;
+			- _theDiagram = { IHandle 
+				- _m2Class = "IMSC";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "launch_Dirac_executors";
+				- _id = GUID ed1ccdca-f34b-11e1-8a10-0022645fb25d;
+			}
+			- _UpLeft = 0 1482 ;
+			- _DownRight = 1303 2026 ;
+			- _instanceName = "";
+			- m_nDiagramIndex = 3;
+		}
+		{ CGEMdiDiagramParams 
+			- _placement = { CCommon_WINDOWPLACEMENT 
+				- m_nLength = 44;
+				- m_nFlags = 0;
+				- m_showCmd = 1;
+				- m_ptMinPositionX = -1;
+				- m_ptMinPositionY = -1;
+				- m_ptMaxPositionX = -4;
+				- m_ptMaxPositionY = -23;
+				- m_nLeft = 220;
+				- m_nTop = 242;
+				- m_nRight = 1500;
+				- m_nBottom = 832;
+			}
+			- _wasOpenedOnCloseProject = 1;
+			- _theDiagram = { IHandle 
+				- _m2Class = "IMSC";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "msg_ExecutorError";
+				- _id = GUID 0aabf207-f02d-11e1-9818-0022645fb25d;
+			}
+			- _UpLeft = 0 0 ;
+			- _DownRight = 1303 544 ;
+			- _instanceName = "";
+			- m_nDiagramIndex = 2;
+		}
+		{ CGEMdiDiagramParams 
+			- _placement = { CCommon_WINDOWPLACEMENT 
+				- m_nLength = 44;
+				- m_nFlags = 0;
+				- m_showCmd = 1;
+				- m_ptMinPositionX = -1;
+				- m_ptMinPositionY = -1;
+				- m_ptMaxPositionX = -4;
+				- m_ptMaxPositionY = -23;
+				- m_nLeft = 120;
+				- m_nTop = 132;
+				- m_nRight = 899;
+				- m_nBottom = 530;
+			}
+			- _wasOpenedOnCloseProject = 1;
+			- _theDiagram = { IHandle 
+				- _m2Class = "IMSC";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "msg_OptimizeJobs";
+				- _id = GUID 1b680bba-f505-11e1-83a0-c82a143cf4b0;
+			}
+			- _UpLeft = 43 300 ;
+			- _DownRight = 794 631 ;
+			- _instanceName = "";
+			- m_nDiagramIndex = 21;
+		}
+		{ CGEMdiDiagramParams 
+			- _placement = { CCommon_WINDOWPLACEMENT 
+				- m_nLength = 44;
+				- m_nFlags = 0;
+				- m_showCmd = 1;
+				- m_ptMinPositionX = -1;
+				- m_ptMinPositionY = -1;
+				- m_ptMaxPositionX = -4;
+				- m_ptMaxPositionY = -23;
+				- m_nLeft = 240;
+				- m_nTop = 264;
+				- m_nRight = 1520;
+				- m_nBottom = 854;
+			}
+			- _wasOpenedOnCloseProject = 1;
+			- _theDiagram = { IHandle 
+				- _m2Class = "IMSC";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "msg_OptimizeJobs_old";
+				- _id = GUID 7f4f618c-ead4-11e1-b230-0022645fb25d;
+			}
+			- _UpLeft = 0 31 ;
+			- _DownRight = 1303 575 ;
+			- _instanceName = "";
+			- m_nDiagramIndex = 1;
+		}
+		{ CGEMdiDiagramParams 
+			- _placement = { CCommon_WINDOWPLACEMENT 
+				- m_nLength = 44;
+				- m_nFlags = 2;
+				- m_showCmd = 3;
+				- m_ptMinPositionX = -1;
+				- m_ptMinPositionY = -1;
+				- m_ptMaxPositionX = -4;
+				- m_ptMaxPositionY = -23;
+				- m_nLeft = 40;
+				- m_nTop = 44;
+				- m_nRight = 826;
+				- m_nBottom = 442;
+			}
+			- _wasOpenedOnCloseProject = 1;
+			- _theDiagram = { IHandle 
+				- _m2Class = "IMSC";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "msg_TaskDone";
+				- _id = GUID 5ac7af8e-ec5b-11e1-adbc-0022645fb25d;
+			}
+			- _UpLeft = 26 248 ;
+			- _DownRight = 978 852 ;
+			- _instanceName = "";
+			- m_nDiagramIndex = 23;
+		}
+		{ CGEMdiDiagramParams 
+			- _placement = { CCommon_WINDOWPLACEMENT 
+				- m_nLength = 44;
+				- m_nFlags = 0;
+				- m_showCmd = 1;
+				- m_ptMinPositionX = -1;
+				- m_ptMinPositionY = -1;
+				- m_ptMaxPositionX = -4;
+				- m_ptMaxPositionY = -23;
+				- m_nLeft = 140;
+				- m_nTop = 154;
+				- m_nRight = 919;
+				- m_nBottom = 552;
+			}
+			- _wasOpenedOnCloseProject = 1;
+			- _theDiagram = { IHandle 
+				- _m2Class = "IMSC";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "msg_TaskError";
+				- _id = GUID 3384466f-ed0d-11e1-a0b2-0022645fb25d;
+			}
+			- _UpLeft = 0 0 ;
+			- _DownRight = 751 331 ;
+			- _instanceName = "";
+			- m_nDiagramIndex = 0;
+		}
+	}
+	- _fullName = "/home/daniela/sw/IBM/git/UML-MARTE/ShortOverview_flattenedSequence";
+	- m_SearchScopeList = { IRPYRawContainer 
+		- size = 0;
+	}
+	- bUsingCustomBrowserView = 0;
+	- bUsingQueries = 0;
+	- bApplyOnDiagrams = 0;
+	- liQueryIDs = { IRPYRawContainer 
+		- size = 0;
+	}
+	- liElementTypes = { IRPYRawContainer 
+		- size = 0;
+	}
+
+	- m_favoritesTree = {
+		count=1;
+		{ - favoritesItem
+			generation = 0;
+			name = Favorites;
+			idOrFolder = folder;
+		}
+	}
+
+}
+

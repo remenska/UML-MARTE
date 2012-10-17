@@ -1,0 +1,794 @@
+I-Logix-RPY-Archive version 8.6.0 Java 4012249
+{ ISubsystem 
+	- _ownerHandle = { IHandle 
+		- _m2Class = "ISubsystem";
+		- _filename = "WorkloadManagementSystem.sbs";
+		- _subsystem = "";
+		- _class = "";
+		- _name = "WorkloadManagementSystem";
+		- _id = GUID e809247d-f2b5-11e1-bb60-c82a143cf4b0;
+	}
+	- _id = GUID a34ce32a-f2b6-11e1-a32c-c82a143cf4b0;
+	- _myState = 8192;
+	- _name = "Executor";
+	- _lastID = 1;
+	- Declaratives = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ ISubsystem 
+			- fileName = "Base_1";
+			- _id = GUID 9dd26454-f2b8-11e1-b840-c82a143cf4b0;
+			- _name = "Base";
+		}
+	}
+	- weakCGTime = 9.7.2012::16:1:40;
+	- strongCGTime = 8.30.2012::16:23:31;
+	- _defaultComposite = GUID a34ce32b-f2b6-11e1-a32c-c82a143cf4b0;
+	- _eventsBaseID = -1;
+	- Classes = { IRPYRawContainer 
+		- size = 5;
+		- value = 
+		{ IClass 
+			- _id = GUID a34ce32b-f2b6-11e1-a32c-c82a143cf4b0;
+			- _myState = 40960;
+			- _name = "TopLevel";
+			- weakCGTime = 9.7.2012::15:35:7;
+			- strongCGTime = 8.30.2012::16:23:31;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID fae1167a-f42f-11e1-b1bc-c82a143cf4b0;
+			- _myState = 8192;
+			- _name = "InputData";
+			- _theMainDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "ClientSide";
+				- _id = GUID 484fdc0a-f0fd-11e1-8a3c-0022645fb25d;
+			}
+			- _lastID = 7;
+			- weakCGTime = 9.1.2012::17:19:9;
+			- strongCGTime = 8.30.2012::16:25:10;
+			- Operations = { IRPYRawContainer 
+				- size = 7;
+				- value = 
+				{ IPrimitiveOperation 
+					- _id = GUID fae1167b-f42f-11e1-b1bc-c82a143cf4b0;
+					- _myState = 8192;
+					- _name = "optimizeJob";
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesJava.sbs";
+						- _subsystem = "PredefinedTypesJava";
+						- _class = "";
+						- _name = "void";
+						- _id = GUID 38d26ae8-de64-4b2e-8b3e-d6cbe8e0a76d;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPublic;
+					- _static = 0;
+					- _constant = 0;
+				}
+				{ IPrimitiveOperation 
+					- _id = GUID fae1167c-f42f-11e1-b1bc-c82a143cf4b0;
+					- _myState = 8192;
+					- _name = "initializeOptimizer";
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesJava.sbs";
+						- _subsystem = "PredefinedTypesJava";
+						- _class = "";
+						- _name = "void";
+						- _id = GUID 38d26ae8-de64-4b2e-8b3e-d6cbe8e0a76d;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPublic;
+					- _static = 0;
+					- _constant = 0;
+				}
+				{ IPrimitiveOperation 
+					- _id = GUID fae1167d-f42f-11e1-b1bc-c82a143cf4b0;
+					- _myState = 8192;
+					- _name = "__resolveInputData";
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesJava.sbs";
+						- _subsystem = "PredefinedTypesJava";
+						- _class = "";
+						- _name = "void";
+						- _id = GUID 38d26ae8-de64-4b2e-8b3e-d6cbe8e0a76d;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPrivate;
+					- _static = 0;
+					- _constant = 0;
+				}
+				{ IPrimitiveOperation 
+					- _id = GUID fae1167e-f42f-11e1-b1bc-c82a143cf4b0;
+					- _myState = 8192;
+					- _name = "__checkReplicas";
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesJava.sbs";
+						- _subsystem = "PredefinedTypesJava";
+						- _class = "";
+						- _name = "void";
+						- _id = GUID 38d26ae8-de64-4b2e-8b3e-d6cbe8e0a76d;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPrivate;
+					- _static = 0;
+					- _constant = 0;
+				}
+				{ IPrimitiveOperation 
+					- _id = GUID fae1167f-f42f-11e1-b1bc-c82a143cf4b0;
+					- _myState = 8192;
+					- _name = "__checkActiveSEs";
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesJava.sbs";
+						- _subsystem = "PredefinedTypesJava";
+						- _class = "";
+						- _name = "void";
+						- _id = GUID 38d26ae8-de64-4b2e-8b3e-d6cbe8e0a76d;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPrivate;
+					- _static = 0;
+					- _constant = 0;
+				}
+				{ IPrimitiveOperation 
+					- _id = GUID fae11680-f42f-11e1-b1bc-c82a143cf4b0;
+					- _myState = 8192;
+					- _name = "__getSitesForSE";
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesJava.sbs";
+						- _subsystem = "PredefinedTypesJava";
+						- _class = "";
+						- _name = "void";
+						- _id = GUID 38d26ae8-de64-4b2e-8b3e-d6cbe8e0a76d;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPrivate;
+					- _static = 0;
+					- _constant = 0;
+				}
+				{ IPrimitiveOperation 
+					- _id = GUID fae11681-f42f-11e1-b1bc-c82a143cf4b0;
+					- _myState = 8192;
+					- _name = "__getSiteCandidates";
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesJava.sbs";
+						- _subsystem = "PredefinedTypesJava";
+						- _class = "";
+						- _name = "void";
+						- _id = GUID 38d26ae8-de64-4b2e-8b3e-d6cbe8e0a76d;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPrivate;
+					- _static = 0;
+					- _constant = 0;
+				}
+			}
+			- Inheritances = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IGeneralization 
+					- _id = GUID 56031b2a-f450-11e1-8b7a-c82a143cf4b0;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IClass";
+						- _filename = "Base_1.sbs";
+						- _subsystem = "WorkloadManagementSystem::Executor::Base";
+						- _class = "";
+						- _name = "OptimizerExecutor";
+						- _id = GUID fae1166e-f42f-11e1-b1bc-c82a143cf4b0;
+					}
+					- _inheritanceType = iPublic;
+					- _isVirtual = 0;
+				}
+			}
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID fae11683-f42f-11e1-b1bc-c82a143cf4b0;
+			- _myState = 8192;
+			- _name = "JobPath";
+			- _theMainDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "ClientSide";
+				- _id = GUID 484fdc0a-f0fd-11e1-8a3c-0022645fb25d;
+			}
+			- _lastID = 3;
+			- weakCGTime = 9.3.2012::9:33:5;
+			- strongCGTime = 8.30.2012::16:25:13;
+			- Operations = { IRPYRawContainer 
+				- size = 3;
+				- value = 
+				{ IPrimitiveOperation 
+					- _id = GUID fae11684-f42f-11e1-b1bc-c82a143cf4b0;
+					- _myState = 8192;
+					- _name = "optimizeJob";
+					- _lastID = 2;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 2;
+						- value = 
+						{ IArgument 
+							- _id = GUID fae11685-f42f-11e1-b1bc-c82a143cf4b0;
+							- _name = "jid";
+							- _typeOf = { IHandle 
+								- _m2Class = "IType";
+								- _filename = "PredefinedTypesJava.sbs";
+								- _subsystem = "PredefinedTypesJava";
+								- _class = "";
+								- _name = "int";
+								- _id = GUID 3b5a0555-e8e5-4b86-9ea1-95ae819b6564;
+							}
+							- _isOrdered = 0;
+							- _argumentDirection = In;
+						}
+						{ IArgument 
+							- _id = GUID fae11686-f42f-11e1-b1bc-c82a143cf4b0;
+							- _name = "jobState";
+							- _typeOf = { IHandle 
+								- _m2Class = "IClass";
+								- _filename = "JobState.sbs";
+								- _subsystem = "WorkloadManagementSystem::Client::JobState";
+								- _class = "";
+								- _name = "CachedJobState";
+								- _id = GUID fae11645-f42f-11e1-b1bc-c82a143cf4b0;
+							}
+							- _isOrdered = 0;
+							- _argumentDirection = In;
+						}
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesJava.sbs";
+						- _subsystem = "PredefinedTypesJava";
+						- _class = "";
+						- _name = "void";
+						- _id = GUID 38d26ae8-de64-4b2e-8b3e-d6cbe8e0a76d;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPublic;
+					- _static = 0;
+					- _constant = 0;
+				}
+				{ IPrimitiveOperation 
+					- _id = GUID fae11687-f42f-11e1-b1bc-c82a143cf4b0;
+					- _myState = 8192;
+					- _name = "__setOptimizerChain";
+					- _lastID = 2;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 2;
+						- value = 
+						{ IArgument 
+							- _id = GUID fae11688-f42f-11e1-b1bc-c82a143cf4b0;
+							- _name = "jobState";
+							- _typeOf = { IHandle 
+								- _m2Class = "IClass";
+								- _filename = "JobState.sbs";
+								- _subsystem = "WorkloadManagementSystem::Client::JobState";
+								- _class = "";
+								- _name = "CachedJobState";
+								- _id = GUID fae11645-f42f-11e1-b1bc-c82a143cf4b0;
+							}
+							- _isOrdered = 0;
+							- _argumentDirection = In;
+						}
+						{ IArgument 
+							- _id = GUID fae11689-f42f-11e1-b1bc-c82a143cf4b0;
+							- _name = "opChain";
+							- _typeOf = { IHandle 
+								- _m2Class = "IType";
+								- _filename = "PredefinedTypesJava.sbs";
+								- _subsystem = "PredefinedTypesJava";
+								- _class = "";
+								- _name = "String";
+								- _id = GUID cb97d0d7-bf5d-4020-b25e-f6a87117705a;
+							}
+							- _isOrdered = 0;
+							- _argumentDirection = In;
+						}
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesJava.sbs";
+						- _subsystem = "PredefinedTypesJava";
+						- _class = "";
+						- _name = "void";
+						- _id = GUID 38d26ae8-de64-4b2e-8b3e-d6cbe8e0a76d;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPrivate;
+					- _static = 0;
+					- _constant = 0;
+				}
+				{ IPrimitiveOperation 
+					- _id = GUID dc5826ec-f59d-11e1-9e1a-0022645fb25d;
+					- _myState = 8192;
+					- _name = "initializeOptimizer";
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesJava.sbs";
+						- _subsystem = "PredefinedTypesJava";
+						- _class = "";
+						- _name = "void";
+						- _id = GUID 38d26ae8-de64-4b2e-8b3e-d6cbe8e0a76d;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPublic;
+					- _static = 0;
+					- _constant = 0;
+				}
+			}
+			- Inheritances = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IGeneralization 
+					- _id = GUID 56031abc-f450-11e1-8b7a-c82a143cf4b0;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IClass";
+						- _filename = "Base_1.sbs";
+						- _subsystem = "WorkloadManagementSystem::Executor::Base";
+						- _class = "";
+						- _name = "OptimizerExecutor";
+						- _id = GUID fae1166e-f42f-11e1-b1bc-c82a143cf4b0;
+					}
+					- _inheritanceType = iPublic;
+					- _isVirtual = 0;
+				}
+			}
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID fae1168b-f42f-11e1-b1bc-c82a143cf4b0;
+			- _myState = 8192;
+			- _name = "JobSanity";
+			- _theMainDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "ClientSide";
+				- _id = GUID 484fdc0a-f0fd-11e1-8a3c-0022645fb25d;
+			}
+			- _lastID = 2;
+			- weakCGTime = 9.1.2012::17:19:6;
+			- strongCGTime = 8.30.2012::16:25:16;
+			- Operations = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IPrimitiveOperation 
+					- _id = GUID fae1168c-f42f-11e1-b1bc-c82a143cf4b0;
+					- _myState = 8192;
+					- _name = "optimizeJob";
+					- _lastID = 2;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 2;
+						- value = 
+						{ IArgument 
+							- _id = GUID fae1168d-f42f-11e1-b1bc-c82a143cf4b0;
+							- _name = "jid";
+							- _typeOf = { IHandle 
+								- _m2Class = "IType";
+								- _filename = "PredefinedTypesJava.sbs";
+								- _subsystem = "PredefinedTypesJava";
+								- _class = "";
+								- _name = "int";
+								- _id = GUID 3b5a0555-e8e5-4b86-9ea1-95ae819b6564;
+							}
+							- _isOrdered = 0;
+							- _argumentDirection = In;
+						}
+						{ IArgument 
+							- _id = GUID fae1168e-f42f-11e1-b1bc-c82a143cf4b0;
+							- _name = "jobState";
+							- _typeOf = { IHandle 
+								- _m2Class = "IClass";
+								- _filename = "JobState.sbs";
+								- _subsystem = "WorkloadManagementSystem::Client::JobState";
+								- _class = "";
+								- _name = "CachedJobState";
+								- _id = GUID fae11645-f42f-11e1-b1bc-c82a143cf4b0;
+							}
+							- _isOrdered = 0;
+							- _argumentDirection = In;
+						}
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesJava.sbs";
+						- _subsystem = "PredefinedTypesJava";
+						- _class = "";
+						- _name = "void";
+						- _id = GUID 38d26ae8-de64-4b2e-8b3e-d6cbe8e0a76d;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPublic;
+					- _static = 0;
+					- _constant = 0;
+				}
+				{ IPrimitiveOperation 
+					- _id = GUID fae1168f-f42f-11e1-b1bc-c82a143cf4b0;
+					- _myState = 8192;
+					- _name = "__setOptimizerChain";
+					- _lastID = 2;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 2;
+						- value = 
+						{ IArgument 
+							- _id = GUID fae11690-f42f-11e1-b1bc-c82a143cf4b0;
+							- _name = "jobState";
+							- _typeOf = { IHandle 
+								- _m2Class = "IClass";
+								- _filename = "JobState.sbs";
+								- _subsystem = "WorkloadManagementSystem::Client::JobState";
+								- _class = "";
+								- _name = "CachedJobState";
+								- _id = GUID fae11645-f42f-11e1-b1bc-c82a143cf4b0;
+							}
+							- _isOrdered = 0;
+							- _argumentDirection = In;
+						}
+						{ IArgument 
+							- _id = GUID fae11691-f42f-11e1-b1bc-c82a143cf4b0;
+							- _name = "opChain";
+							- _typeOf = { IHandle 
+								- _m2Class = "IType";
+								- _filename = "PredefinedTypesJava.sbs";
+								- _subsystem = "PredefinedTypesJava";
+								- _class = "";
+								- _name = "String";
+								- _id = GUID cb97d0d7-bf5d-4020-b25e-f6a87117705a;
+							}
+							- _isOrdered = 0;
+							- _argumentDirection = In;
+						}
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesJava.sbs";
+						- _subsystem = "PredefinedTypesJava";
+						- _class = "";
+						- _name = "void";
+						- _id = GUID 38d26ae8-de64-4b2e-8b3e-d6cbe8e0a76d;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPrivate;
+					- _static = 0;
+					- _constant = 0;
+				}
+			}
+			- Inheritances = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IGeneralization 
+					- _id = GUID 56031aef-f450-11e1-8b7a-c82a143cf4b0;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IClass";
+						- _filename = "Base_1.sbs";
+						- _subsystem = "WorkloadManagementSystem::Executor::Base";
+						- _class = "";
+						- _name = "OptimizerExecutor";
+						- _id = GUID fae1166e-f42f-11e1-b1bc-c82a143cf4b0;
+					}
+					- _inheritanceType = iPublic;
+					- _isVirtual = 0;
+				}
+			}
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID fae11693-f42f-11e1-b1bc-c82a143cf4b0;
+			- _myState = 8192;
+			- _name = "JobScheduling";
+			- _theMainDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "ClientSide";
+				- _id = GUID 484fdc0a-f0fd-11e1-8a3c-0022645fb25d;
+			}
+			- _lastID = 8;
+			- weakCGTime = 9.1.2012::17:19:12;
+			- strongCGTime = 8.30.2012::16:25:18;
+			- Operations = { IRPYRawContainer 
+				- size = 8;
+				- value = 
+				{ IPrimitiveOperation 
+					- _id = GUID fae11694-f42f-11e1-b1bc-c82a143cf4b0;
+					- _myState = 8192;
+					- _name = "initializeOptimizer";
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesJava.sbs";
+						- _subsystem = "PredefinedTypesJava";
+						- _class = "";
+						- _name = "void";
+						- _id = GUID 38d26ae8-de64-4b2e-8b3e-d6cbe8e0a76d;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPublic;
+					- _static = 0;
+					- _constant = 0;
+				}
+				{ IPrimitiveOperation 
+					- _id = GUID fae11695-f42f-11e1-b1bc-c82a143cf4b0;
+					- _myState = 8192;
+					- _name = "optimizeJob";
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesJava.sbs";
+						- _subsystem = "PredefinedTypesJava";
+						- _class = "";
+						- _name = "void";
+						- _id = GUID 38d26ae8-de64-4b2e-8b3e-d6cbe8e0a76d;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPublic;
+					- _static = 0;
+					- _constant = 0;
+				}
+				{ IPrimitiveOperation 
+					- _id = GUID fae11696-f42f-11e1-b1bc-c82a143cf4b0;
+					- _myState = 8192;
+					- _name = "__applySiteFilter";
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesJava.sbs";
+						- _subsystem = "PredefinedTypesJava";
+						- _class = "";
+						- _name = "void";
+						- _id = GUID 38d26ae8-de64-4b2e-8b3e-d6cbe8e0a76d;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPublic;
+					- _static = 0;
+					- _constant = 0;
+				}
+				{ IPrimitiveOperation 
+					- _id = GUID fae11697-f42f-11e1-b1bc-c82a143cf4b0;
+					- _myState = 8192;
+					- _name = "__holdJob";
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesJava.sbs";
+						- _subsystem = "PredefinedTypesJava";
+						- _class = "";
+						- _name = "void";
+						- _id = GUID 38d26ae8-de64-4b2e-8b3e-d6cbe8e0a76d;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPublic;
+					- _static = 0;
+					- _constant = 0;
+				}
+				{ IPrimitiveOperation 
+					- _id = GUID fae11698-f42f-11e1-b1bc-c82a143cf4b0;
+					- _myState = 8192;
+					- _name = "__sendToTQ";
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesJava.sbs";
+						- _subsystem = "PredefinedTypesJava";
+						- _class = "";
+						- _name = "void";
+						- _id = GUID 38d26ae8-de64-4b2e-8b3e-d6cbe8e0a76d;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPublic;
+					- _static = 0;
+					- _constant = 0;
+				}
+				{ IPrimitiveOperation 
+					- _id = GUID fae11699-f42f-11e1-b1bc-c82a143cf4b0;
+					- _myState = 8192;
+					- _name = "__resolveStaging";
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesJava.sbs";
+						- _subsystem = "PredefinedTypesJava";
+						- _class = "";
+						- _name = "void";
+						- _id = GUID 38d26ae8-de64-4b2e-8b3e-d6cbe8e0a76d;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPublic;
+					- _static = 0;
+					- _constant = 0;
+				}
+				{ IPrimitiveOperation 
+					- _id = GUID fae1169a-f42f-11e1-b1bc-c82a143cf4b0;
+					- _myState = 8192;
+					- _name = "__requestStaging";
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesJava.sbs";
+						- _subsystem = "PredefinedTypesJava";
+						- _class = "";
+						- _name = "void";
+						- _id = GUID 38d26ae8-de64-4b2e-8b3e-d6cbe8e0a76d;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPublic;
+					- _static = 0;
+					- _constant = 0;
+				}
+				{ IPrimitiveOperation 
+					- _id = GUID fae1169b-f42f-11e1-b1bc-c82a143cf4b0;
+					- _myState = 8192;
+					- _name = "__checkStageAllowed";
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesJava.sbs";
+						- _subsystem = "PredefinedTypesJava";
+						- _class = "";
+						- _name = "void";
+						- _id = GUID 38d26ae8-de64-4b2e-8b3e-d6cbe8e0a76d;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPublic;
+					- _static = 0;
+					- _constant = 0;
+				}
+			}
+			- Inheritances = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IGeneralization 
+					- _id = GUID 56031b47-f450-11e1-8b7a-c82a143cf4b0;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IClass";
+						- _filename = "Base_1.sbs";
+						- _subsystem = "WorkloadManagementSystem::Executor::Base";
+						- _class = "";
+						- _name = "OptimizerExecutor";
+						- _id = GUID fae1166e-f42f-11e1-b1bc-c82a143cf4b0;
+					}
+					- _inheritanceType = iPublic;
+					- _isVirtual = 0;
+				}
+			}
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- _configurationRelatedTime = 1.2.1990::0:0:0;
+}
+

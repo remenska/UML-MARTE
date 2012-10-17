@@ -1,0 +1,49 @@
+I-Logix-RPY-Archive version 8.6.0 Java 4012249
+{ ISubsystem 
+	- _ownerHandle = { IHandle 
+		- _m2Class = "ISubsystem";
+		- _filename = "Core.sbs";
+		- _subsystem = "";
+		- _class = "";
+		- _name = "Core";
+		- _id = GUID d59bba09-f2b5-11e1-819a-c82a143cf4b0;
+	}
+	- _id = GUID 08e20118-f344-11e1-a0ec-0022645fb25d;
+	- _myState = 8192;
+	- _name = "scripts";
+	- _lastID = 1;
+	- weakCGTime = 9.17.2012::13:57:55;
+	- strongCGTime = 8.31.2012::10:11:42;
+	- _defaultComposite = GUID 08e20119-f344-11e1-a0ec-0022645fb25d;
+	- _eventsBaseID = -1;
+	- Classes = { IRPYRawContainer 
+		- size = 2;
+		- value = 
+		{ IClass 
+			- _id = GUID 08e20119-f344-11e1-a0ec-0022645fb25d;
+			- _myState = 40960;
+			- _name = "TopLevel";
+			- weakCGTime = 8.31.2012::10:11:55;
+			- strongCGTime = 8.31.2012::10:11:42;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID 08e2031c-f344-11e1-a0ec-0022645fb25d;
+			- _myState = 8192;
+			- _name = "dirac_executor_py";
+			- weakCGTime = 8.31.2012::10:11:59;
+			- strongCGTime = 8.31.2012::10:11:59;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- _configurationRelatedTime = 1.2.1990::0:0:0;
+}
+

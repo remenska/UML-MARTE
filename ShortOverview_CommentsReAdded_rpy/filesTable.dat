@@ -1,0 +1,21 @@
+I-Logix-RPY-Archive version 8.6.0 * 4012249
+
+- filesTable = { IRPYRawContainer 
+	- size = 14;
+	- value = "ShortOverview_CommentsReAdded.rpy" ""
+	"ShortOverview_CommentsReAdded_rpy/Base.sbs" "Core::Base"
+	"ShortOverview_CommentsReAdded_rpy/Base_1.sbs" "WorkloadManagementSystem::Executor::Base"
+	"ShortOverview_CommentsReAdded_rpy/Client.sbs" "WorkloadManagementSystem::Client"
+	"ShortOverview_CommentsReAdded_rpy/Core.sbs" "Core"
+	"ShortOverview_CommentsReAdded_rpy/DB.sbs" "WorkloadManagementSystem::DB"
+	"ShortOverview_CommentsReAdded_rpy/Default.sbs" "Default"
+	"ShortOverview_CommentsReAdded_rpy/DefaultComponent.cmp" "DefaultComponent"
+	"ShortOverview_CommentsReAdded_rpy/Executor.sbs" "WorkloadManagementSystem::Executor"
+	"ShortOverview_CommentsReAdded_rpy/JobState.sbs" "WorkloadManagementSystem::Client::JobState"
+	"ShortOverview_CommentsReAdded_rpy/Service.sbs" "WorkloadManagementSystem::Service"
+	"ShortOverview_CommentsReAdded_rpy/Utilities.sbs" "Core::Utilities"
+	"ShortOverview_CommentsReAdded_rpy/WorkloadManagementSystem.sbs" "WorkloadManagementSystem"
+	"ShortOverview_CommentsReAdded_rpy/scripts.sbs" "Core::scripts"
+	
+}
+

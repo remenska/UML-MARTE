@@ -1,0 +1,223 @@
+I-Logix-RPY-Archive version 8.6.0 Java 4012249
+{ IComponent 
+	- _id = GUID 59c9d723-eaa8-11e1-9dda-0022645fb25d;
+	- _myState = 139264;
+	- _name = "DefaultComponent";
+	- m_buildType = Executable;
+	- m_libraries = "";
+	- m_additionalSources = "";
+	- m_standardHeaders = "";
+	- m_includePath = "";
+	- m_initializationCode = "";
+	- m_folder = { IFolder 
+		- _id = GUID 59c9d724-eaa8-11e1-9dda-0022645fb25d;
+		- _myState = 73728;
+		- _name = "Files";
+		- m_path = "";
+		- Elements = { IRPYRawContainer 
+			- size = 0;
+		}
+		- Files = { IRPYRawContainer 
+			- size = 0;
+		}
+	}
+	- m_configActive = { ICodeGenConfigInfoHandle 
+		- _m2Class = "ICodeGenConfigInfo";
+		- _id = GUID 59c9d725-eaa8-11e1-9dda-0022645fb25d;
+	}
+	- Configs = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ ICodeGenConfigInfo 
+			- _id = GUID 59c9d725-eaa8-11e1-9dda-0022645fb25d;
+			- _myState = 8192;
+			- _name = "DefaultConfig";
+			- HyperLinks = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IMHyperLink 
+					- _id = GUID a7b821a2-eaa9-11e1-bfbc-0022645fb25d;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "";
+					}
+					- _linkDispName = "Edit Makefile";
+					- _linkType = "FREE";
+					- _linkTarget = "/home/daniela/sw/IBM/ShortOverview/DefaultComponent/DefaultConfig/DefaultComponent.sh";
+					- isConfigurationFileHyperLink = 1;
+				}
+				{ IMHyperLink 
+					- _id = GUID a7b821a3-eaa9-11e1-bfbc-0022645fb25d;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "";
+					}
+					- _linkDispName = "Edit Main File";
+					- _linkType = "FREE";
+					- _linkTarget = "/home/daniela/sw/IBM/ShortOverview/DefaultComponent/DefaultConfig/MainDefaultComponent";
+					- isConfigurationFileHyperLink = 1;
+				}
+			}
+			- _scopeType = Explicit;
+			- _libraries = "";
+			- _additionalSources = "";
+			- _standardHeaders = "";
+			- _includePath = "";
+			- _targetMain = "";
+			- _instrumentation = None;
+			- _timeModel = RealTime;
+			- m_generateActors = 1;
+			- _statechartImplementation = Flat;
+			- _initializationCode = "";
+			- _checksList = 0 ;
+			- ScopeElements = { IRPYRawContainer 
+				- size = 0;
+			}
+			- InitialInstances = { IRPYRawContainer 
+				- size = 0;
+			}
+			- _root = { IFolder 
+				- _id = GUID 59c9d726-eaa8-11e1-9dda-0022645fb25d;
+				- _myState = 8192;
+				- _name = "DefaultConfig";
+				- m_path = "";
+				- Elements = { IRPYRawContainer 
+					- size = 0;
+				}
+				- Files = { IRPYRawContainer 
+					- size = 0;
+				}
+			}
+			- weakCGTime = 1.2.1990::0:0:0;
+			- strongCGTime = 1.2.1990::0:0:0;
+			- AnimScopeElements = { IRPYRawContainer 
+				- size = 0;
+			}
+			- m_allInAnimScope = 1;
+			- m_generateUsecases = 0;
+		}
+	}
+	- HandlesInMe = { IRPYRawContainer 
+		- size = 14;
+		- value = 
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "Default.sbs";
+			- _subsystem = "";
+			- _class = "";
+			- _name = "Default";
+			- _id = GUID 59c9d71d-eaa8-11e1-9dda-0022645fb25d;
+		}
+		{ IHandle 
+			- _m2Class = "IProfile";
+			- _filename = "$OMROOT/Profiles/JavaDoc//JavaDocProfile.sbs";
+			- _subsystem = "";
+			- _class = "";
+			- _name = "JavaDocProfile";
+			- _id = GUID 19700e28-456f-4c97-a19c-b95dcb3e9dff;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "Core.sbs";
+			- _subsystem = "";
+			- _class = "";
+			- _name = "Core";
+			- _id = GUID d59bba09-f2b5-11e1-819a-c82a143cf4b0;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "Base.sbs";
+			- _subsystem = "Core";
+			- _class = "";
+			- _name = "Base";
+			- _id = GUID d59bbb80-f2b5-11e1-819a-c82a143cf4b0;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "Utilities.sbs";
+			- _subsystem = "Core";
+			- _class = "";
+			- _name = "Utilities";
+			- _id = GUID 45d916bc-f2b6-11e1-b804-c82a143cf4b0;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "scripts.sbs";
+			- _subsystem = "Core";
+			- _class = "";
+			- _name = "scripts";
+			- _id = GUID 08e20118-f344-11e1-a0ec-0022645fb25d;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "WorkloadManagementSystem.sbs";
+			- _subsystem = "";
+			- _class = "";
+			- _name = "WorkloadManagementSystem";
+			- _id = GUID e809247d-f2b5-11e1-bb60-c82a143cf4b0;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "Client.sbs";
+			- _subsystem = "WorkloadManagementSystem";
+			- _class = "";
+			- _name = "Client";
+			- _id = GUID 074f1c63-f2b6-11e1-984c-c82a143cf4b0;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "JobState.sbs";
+			- _subsystem = "WorkloadManagementSystem::Client";
+			- _class = "";
+			- _name = "JobState";
+			- _id = GUID 074f1dd8-f2b6-11e1-984c-c82a143cf4b0;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "DB.sbs";
+			- _subsystem = "WorkloadManagementSystem";
+			- _class = "";
+			- _name = "DB";
+			- _id = GUID 8340191d-f2b6-11e1-988c-c82a143cf4b0;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "Executor.sbs";
+			- _subsystem = "WorkloadManagementSystem";
+			- _class = "";
+			- _name = "Executor";
+			- _id = GUID a34ce32a-f2b6-11e1-a32c-c82a143cf4b0;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "Base_1.sbs";
+			- _subsystem = "WorkloadManagementSystem::Executor";
+			- _class = "";
+			- _name = "Base";
+			- _id = GUID 9dd26454-f2b8-11e1-b840-c82a143cf4b0;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "Service.sbs";
+			- _subsystem = "WorkloadManagementSystem";
+			- _class = "";
+			- _name = "Service";
+			- _id = GUID a34ce458-f2b6-11e1-a32c-c82a143cf4b0;
+		}
+		{ IHandle 
+			- _m2Class = "IProfile";
+			- _filename = "$OMROOT/Profiles/MARTE/MARTE.sbs";
+			- _subsystem = "";
+			- _class = "";
+			- _name = "MARTE";
+			- _id = GUID 4486dd40-de7e-4bb5-a2b7-5bfe2971c89c;
+		}
+	}
+	- VariationPoints = { IRPYRawContainer 
+		- size = 0;
+	}
+	- SelectedVariants = { IRPYRawContainer 
+		- size = 0;
+	}
+	- weakCGTime = 9.17.2012::10:56:13;
+	- strongCGTime = 1.2.1990::0:0:0;
+}
+

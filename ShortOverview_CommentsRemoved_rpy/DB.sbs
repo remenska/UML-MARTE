@@ -1,0 +1,347 @@
+I-Logix-RPY-Archive version 8.6.0 Java 4012249
+{ ISubsystem 
+	- _ownerHandle = { IHandle 
+		- _m2Class = "ISubsystem";
+		- _filename = "WorkloadManagementSystem.sbs";
+		- _subsystem = "";
+		- _class = "";
+		- _name = "WorkloadManagementSystem";
+		- _id = GUID e809247d-f2b5-11e1-bb60-c82a143cf4b0;
+	}
+	- _id = GUID 8340191d-f2b6-11e1-988c-c82a143cf4b0;
+	- _myState = 8192;
+	- _name = "DB";
+	- weakCGTime = 9.7.2012::15:35:7;
+	- strongCGTime = 8.30.2012::16:23:24;
+	- _defaultComposite = GUID 8340191e-f2b6-11e1-988c-c82a143cf4b0;
+	- _eventsBaseID = -1;
+	- Classes = { IRPYRawContainer 
+		- size = 2;
+		- value = 
+		{ IClass 
+			- _id = GUID 8340191e-f2b6-11e1-988c-c82a143cf4b0;
+			- _myState = 40960;
+			- _name = "TopLevel";
+			- weakCGTime = 9.3.2012::21:50:30;
+			- strongCGTime = 8.30.2012::16:23:24;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID 1f990594-f379-11e1-b680-0022645fb25d;
+			- _myState = 8192;
+			- _name = "JobDB";
+			- _theMainDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "ServerSide";
+				- _id = GUID 59c9d76f-eaa8-11e1-9dda-0022645fb25d;
+			}
+			- _lastID = 43;
+			- weakCGTime = 9.3.2012::21:50:31;
+			- strongCGTime = 8.30.2012::16:36:12;
+			- Operations = { IRPYRawContainer 
+				- size = 9;
+				- value = 
+				{ IPrimitiveOperation 
+					- _id = GUID 1f990595-f379-11e1-b680-0022645fb25d;
+					- _myState = 8192;
+					- _name = "insertNewJobIntoDB";
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesJava.sbs";
+						- _subsystem = "PredefinedTypesJava";
+						- _class = "";
+						- _name = "void";
+						- _id = GUID 38d26ae8-de64-4b2e-8b3e-d6cbe8e0a76d;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPublic;
+					- _static = 0;
+					- _constant = 0;
+				}
+				{ IPrimitiveOperation 
+					- _id = GUID 1f990596-f379-11e1-b680-0022645fb25d;
+					- _myState = 8192;
+					- _name = "getJobAttributes";
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesJava.sbs";
+						- _subsystem = "PredefinedTypesJava";
+						- _class = "";
+						- _name = "void";
+						- _id = GUID 38d26ae8-de64-4b2e-8b3e-d6cbe8e0a76d;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPublic;
+					- _static = 0;
+					- _constant = 0;
+				}
+				{ IPrimitiveOperation 
+					- _id = GUID 1f990597-f379-11e1-b680-0022645fb25d;
+					- _myState = 8192;
+					- _name = "setJobStatus";
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesJava.sbs";
+						- _subsystem = "PredefinedTypesJava";
+						- _class = "";
+						- _name = "void";
+						- _id = GUID 38d26ae8-de64-4b2e-8b3e-d6cbe8e0a76d;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPublic;
+					- _static = 0;
+					- _constant = 0;
+				}
+				{ IPrimitiveOperation 
+					- _id = GUID 1f990598-f379-11e1-b680-0022645fb25d;
+					- _myState = 8192;
+					- _name = "setJobAttributes";
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesJava.sbs";
+						- _subsystem = "PredefinedTypesJava";
+						- _class = "";
+						- _name = "void";
+						- _id = GUID 38d26ae8-de64-4b2e-8b3e-d6cbe8e0a76d;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPublic;
+					- _static = 0;
+					- _constant = 0;
+				}
+				{ IPrimitiveOperation 
+					- _id = GUID 1f990599-f379-11e1-b680-0022645fb25d;
+					- _myState = 8192;
+					- _name = "setJobAttribute";
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesJava.sbs";
+						- _subsystem = "PredefinedTypesJava";
+						- _class = "";
+						- _name = "void";
+						- _id = GUID 38d26ae8-de64-4b2e-8b3e-d6cbe8e0a76d;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPublic;
+					- _static = 0;
+					- _constant = 0;
+				}
+				{ IPrimitiveOperation 
+					- _id = GUID 1f99059a-f379-11e1-b680-0022645fb25d;
+					- _myState = 8192;
+					- _name = "rescheduleJob";
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesJava.sbs";
+						- _subsystem = "PredefinedTypesJava";
+						- _class = "";
+						- _name = "void";
+						- _id = GUID 38d26ae8-de64-4b2e-8b3e-d6cbe8e0a76d;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPublic;
+					- _static = 0;
+					- _constant = 0;
+				}
+				{ IPrimitiveOperation 
+					- _id = GUID 1f99059b-f379-11e1-b680-0022645fb25d;
+					- _myState = 8192;
+					- _name = "selectJobs";
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesJava.sbs";
+						- _subsystem = "PredefinedTypesJava";
+						- _class = "";
+						- _name = "void";
+						- _id = GUID 38d26ae8-de64-4b2e-8b3e-d6cbe8e0a76d;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPublic;
+					- _static = 0;
+					- _constant = 0;
+				}
+				{ IPrimitiveOperation 
+					- _id = GUID 41d42107-f2a2-11e1-a6f2-c82a143cf4b0;
+					- _myState = 8192;
+					- _name = "setJobJDL";
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesJava.sbs";
+						- _subsystem = "PredefinedTypesJava";
+						- _class = "";
+						- _name = "void";
+						- _id = GUID 38d26ae8-de64-4b2e-8b3e-d6cbe8e0a76d;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPublic;
+					- _static = 0;
+					- _constant = 0;
+				}
+				{ IPrimitiveOperation 
+					- _id = GUID bfe960bf-f5f5-11e1-989e-c82a143cf4b0;
+					- _myState = 8192;
+					- _name = "getJobOptParameter";
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesJava.sbs";
+						- _subsystem = "PredefinedTypesJava";
+						- _class = "";
+						- _name = "void";
+						- _id = GUID 38d26ae8-de64-4b2e-8b3e-d6cbe8e0a76d;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPublic;
+					- _static = 0;
+					- _constant = 0;
+				}
+			}
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 3;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID 03bde673-f451-11e1-b97c-c82a143cf4b0;
+					- _myState = 10240;
+					- _name = "itsJobState";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _filename = "JobState.sbs";
+						- _subsystem = "WorkloadManagementSystem::Client::JobState";
+						- _class = "";
+						- _name = "JobState";
+						- _id = GUID fae11663-f42f-11e1-b1bc-c82a143cf4b0;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _filename = "JobState.sbs";
+						- _subsystem = "WorkloadManagementSystem::Client::JobState";
+						- _class = "JobState";
+						- _name = "itsJobDB";
+						- _id = GUID 03bde672-f451-11e1-b97c-c82a143cf4b0;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 29c8964c-f45e-11e1-b84a-c82a143cf4b0;
+					- _myState = 10240;
+					- _name = "itsOptimizationMindHandler";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _filename = "Service.sbs";
+						- _subsystem = "WorkloadManagementSystem::Service";
+						- _class = "";
+						- _name = "OptimizationMindHandler";
+						- _id = GUID ccee00bd-f36d-11e1-9900-0022645fb25d;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _filename = "Service.sbs";
+						- _subsystem = "WorkloadManagementSystem::Service";
+						- _class = "OptimizationMindHandler";
+						- _name = "itsJobDB";
+						- _id = GUID 29c8964b-f45e-11e1-b84a-c82a143cf4b0;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 29c897e2-f45e-11e1-b84a-c82a143cf4b0;
+					- _myState = 10240;
+					- _name = "itsJobManagerHandler";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _filename = "Service.sbs";
+						- _subsystem = "WorkloadManagementSystem::Service";
+						- _class = "";
+						- _name = "JobManagerHandler";
+						- _id = GUID ccee00b0-f36d-11e1-9900-0022645fb25d;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _filename = "Service.sbs";
+						- _subsystem = "WorkloadManagementSystem::Service";
+						- _class = "JobManagerHandler";
+						- _name = "itsJobDB";
+						- _id = GUID 29c897e1-f45e-11e1-b84a-c82a143cf4b0;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- _configurationRelatedTime = 1.2.1990::0:0:0;
+}
+

@@ -1,0 +1,170 @@
+I-Logix-RPY-Archive version 8.6.0 Java 4012249
+{ ISubsystem 
+	- _id = GUID 59c9d71d-eaa8-11e1-9dda-0022645fb25d;
+	- _myState = 8192;
+	- _name = "Default";
+	- Annotations = { IRPYRawContainer 
+		- size = 0;
+	}
+	- _lastID = 28;
+	- weakCGTime = 9.7.2012::15:35:7;
+	- strongCGTime = 9.7.2012::14:48:13;
+	- _defaultComposite = GUID 59c9d71e-eaa8-11e1-9dda-0022645fb25d;
+	- _eventsBaseID = -1;
+	- Classes = { IRPYRawContainer 
+		- size = 2;
+		- value = 
+		{ IClass 
+			- _id = GUID 59c9d71e-eaa8-11e1-9dda-0022645fb25d;
+			- _myState = 40960;
+			- _name = "TopLevel";
+			- weakCGTime = 9.7.2012::14:48:13;
+			- strongCGTime = 9.7.2012::14:48:13;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID 6c7c02dc-f6cd-11e1-9c12-c82a143cf4b0;
+			- _myState = 8192;
+			- _name = "ThreadingLock";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _filename = "$OMROOT/Profiles/MARTE/MARTE.sbs";
+					- _subsystem = "MARTE::MARTE_DesignModel::SRM::SW_Interaction";
+					- _class = "";
+					- _name = "SwMutualExclusionResource";
+					- _id = GUID 851cfc63-9fb9-4d39-88d6-a52facf3b800;
+				}
+			}
+			- _lastID = 40;
+			- weakCGTime = 9.7.2012::14:48:13;
+			- strongCGTime = 9.7.2012::14:48:13;
+			- Operations = { IRPYRawContainer 
+				- size = 3;
+				- value = 
+				{ IPrimitiveOperation 
+					- _id = GUID 712b0c55-f6d8-11e1-a09a-c82a143cf4b0;
+					- _myState = 8192;
+					- _name = "acquire";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 2;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "$OMROOT/Profiles/MARTE/MARTE.sbs";
+							- _subsystem = "MARTE::MARTE_AnalysisModel::GQAM";
+							- _class = "";
+							- _name = "GaAcqStep";
+							- _id = GUID 330bf183-17eb-45af-87e5-b329a98a47b3;
+						}
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "$OMROOT/Profiles/MARTE/MARTE.sbs";
+							- _subsystem = "MARTE::MARTE_Foundations::GRM";
+							- _class = "";
+							- _name = "Acquire";
+							- _id = GUID f4c73eec-f91d-44e0-b563-125cc204099d;
+						}
+					}
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesJava.sbs";
+						- _subsystem = "PredefinedTypesJava";
+						- _class = "";
+						- _name = "void";
+						- _id = GUID 38d26ae8-de64-4b2e-8b3e-d6cbe8e0a76d;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPublic;
+					- _static = 0;
+					- _constant = 0;
+				}
+				{ IPrimitiveOperation 
+					- _id = GUID 712b0c59-f6d8-11e1-a09a-c82a143cf4b0;
+					- _myState = 8192;
+					- _name = "release";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 2;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "$OMROOT/Profiles/MARTE/MARTE.sbs";
+							- _subsystem = "MARTE::MARTE_AnalysisModel::GQAM";
+							- _class = "";
+							- _name = "GaRelStep";
+							- _id = GUID 20b76301-0d59-433f-956e-20778dd24314;
+						}
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "$OMROOT/Profiles/MARTE/MARTE.sbs";
+							- _subsystem = "MARTE::MARTE_Foundations::GRM";
+							- _class = "";
+							- _name = "Release";
+							- _id = GUID 2cb1cb69-5c4c-49d8-9bdb-0f8ac7b24d0f;
+						}
+					}
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesJava.sbs";
+						- _subsystem = "PredefinedTypesJava";
+						- _class = "";
+						- _name = "void";
+						- _id = GUID 38d26ae8-de64-4b2e-8b3e-d6cbe8e0a76d;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPublic;
+					- _static = 0;
+					- _constant = 0;
+				}
+				{ IPrimitiveOperation 
+					- _id = GUID 712b0c5d-f6d8-11e1-a09a-c82a143cf4b0;
+					- _myState = 8192;
+					- _name = "notify";
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesJava.sbs";
+						- _subsystem = "PredefinedTypesJava";
+						- _class = "";
+						- _name = "void";
+						- _id = GUID 38d26ae8-de64-4b2e-8b3e-d6cbe8e0a76d;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPublic;
+					- _static = 0;
+					- _constant = 0;
+				}
+			}
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- _configurationRelatedTime = 9.1.2012::17:14:10;
+}
+

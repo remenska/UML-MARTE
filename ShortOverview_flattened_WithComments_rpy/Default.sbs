@@ -1,0 +1,1688 @@
+I-Logix-RPY-Archive version 8.6.0 Java 4012249
+{ ISubsystem 
+	- _id = GUID 59c9d71d-eaa8-11e1-9dda-0022645fb25d;
+	- _myState = 8192;
+	- _name = "Default";
+	- _lastID = 33;
+	- weakCGTime = 10.3.2012::10:36:49;
+	- strongCGTime = 9.20.2012::16:35:10;
+	- _defaultComposite = GUID 59c9d71e-eaa8-11e1-9dda-0022645fb25d;
+	- _eventsBaseID = -1;
+	- Classes = { IRPYRawContainer 
+		- size = 7;
+		- value = 
+		{ IClass 
+			- _id = GUID 59c9d71e-eaa8-11e1-9dda-0022645fb25d;
+			- _myState = 40960;
+			- _name = "TopLevel";
+			- weakCGTime = 9.22.2012::16:33:48;
+			- strongCGTime = 9.20.2012::16:35:10;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 28;
+				- value = 
+				{ IPart 
+					- _id = GUID d4f8a323-0335-11e2-b4c0-0022645fb25d;
+					- _myState = 10240;
+					- _name = "object_0";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID d4f8a324-0335-11e2-b4c0-0022645fb25d;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+					- _implicitClass = { IClass 
+						- _id = GUID d4f8a324-0335-11e2-b4c0-0022645fb25d;
+						- _myState = 10240;
+						- _name = "object_0";
+						- _theMainDiagram = { IHandle 
+							- _m2Class = "IStructureDiagram";
+							- _filename = "";
+							- _subsystem = "";
+							- _class = "";
+							- _name = "Dependencies";
+							- _id = GUID d4f8a2e8-0335-11e2-b4c0-0022645fb25d;
+						}
+						- weakCGTime = 9.20.2012::16:17:4;
+						- strongCGTime = 9.20.2012::16:17:4;
+						- _multiplicity = "";
+						- _itsStateChart = { IHandle 
+							- _m2Class = "";
+						}
+						- _classModifier = Unspecified;
+					}
+				}
+				{ IPart 
+					- _id = GUID d4f8a519-0335-11e2-b4c0-0022645fb25d;
+					- _myState = 8192;
+					- _name = "__dispatchTask";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID d4f8a51a-0335-11e2-b4c0-0022645fb25d;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+					- _implicitClass = { IClass 
+						- _id = GUID d4f8a51a-0335-11e2-b4c0-0022645fb25d;
+						- _myState = 10240;
+						- _name = "__dispatchTask";
+						- Dependencies = { IRPYRawContainer 
+							- size = 5;
+							- value = 
+							{ IDependency 
+								- _id = GUID f7150e3b-0338-11e2-b1ba-0022645fb25d;
+								- _myState = 2048;
+								- _name = "__fillExecutors";
+								- _dependsOn = { INObjectHandle 
+									- _m2Class = "IClass";
+									- _id = GUID 21827f09-0337-11e2-b266-0022645fb25d;
+								}
+							}
+							{ IDependency 
+								- _id = GUID f7150f8f-0338-11e2-b1ba-0022645fb25d;
+								- _myState = 2048;
+								- _name = "__freezeTask";
+								- _dependsOn = { INObjectHandle 
+									- _m2Class = "IClass";
+									- _id = GUID a3705a68-0337-11e2-a2f2-0022645fb25d;
+								}
+							}
+							{ IDependency 
+								- _id = GUID 993b8f6d-033a-11e2-9e94-0022645fb25d;
+								- _myState = 2048;
+								- _name = "object_6";
+								- _dependsOn = { INObjectHandle 
+									- _m2Class = "IClass";
+									- _id = GUID fd30bd94-0337-11e2-bed8-0022645fb25d;
+								}
+							}
+							{ IDependency 
+								- _id = GUID 993b92bf-033a-11e2-9e94-0022645fb25d;
+								- _myState = 2048;
+								- _name = "object_10";
+								- _dependsOn = { INObjectHandle 
+									- _m2Class = "IClass";
+									- _id = GUID 4539e5c4-0338-11e2-bf4a-0022645fb25d;
+								}
+							}
+							{ IDependency 
+								- _id = GUID 7a5cd08d-033c-11e2-b51c-0022645fb25d;
+								- _myState = 2048;
+								- _name = "object_21";
+								- _dependsOn = { INObjectHandle 
+									- _m2Class = "IClass";
+									- _id = GUID a79bc052-0338-11e2-83e0-0022645fb25d;
+								}
+							}
+						}
+						- _theMainDiagram = { IHandle 
+							- _m2Class = "IStructureDiagram";
+							- _filename = "";
+							- _subsystem = "";
+							- _class = "";
+							- _name = "Dependencies";
+							- _id = GUID d4f8a2e8-0335-11e2-b4c0-0022645fb25d;
+						}
+						- _lastID = 5;
+						- weakCGTime = 9.20.2012::17:2:21;
+						- strongCGTime = 9.20.2012::16:24:44;
+						- _multiplicity = "";
+						- _itsStateChart = { IHandle 
+							- _m2Class = "";
+						}
+						- _classModifier = Unspecified;
+					}
+				}
+				{ IPart 
+					- _id = GUID 8661cdd6-0336-11e2-b7c4-0022645fb25d;
+					- _myState = 10240;
+					- _name = "object_2";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 8661cdd7-0336-11e2-b7c4-0022645fb25d;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+					- _implicitClass = { IClass 
+						- _id = GUID 8661cdd7-0336-11e2-b7c4-0022645fb25d;
+						- _myState = 10240;
+						- _name = "object_2";
+						- Dependencies = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IDependency 
+								- _id = GUID 8661ce06-0336-11e2-b7c4-0022645fb25d;
+								- _myState = 2048;
+								- _name = "__dispatchTask";
+								- _dependsOn = { INObjectHandle 
+									- _m2Class = "IClass";
+									- _id = GUID d4f8a51a-0335-11e2-b4c0-0022645fb25d;
+								}
+							}
+						}
+						- _theMainDiagram = { IHandle 
+							- _m2Class = "IStructureDiagram";
+							- _filename = "";
+							- _subsystem = "";
+							- _class = "";
+							- _name = "Dependencies";
+							- _id = GUID d4f8a2e8-0335-11e2-b4c0-0022645fb25d;
+						}
+						- _lastID = 1;
+						- weakCGTime = 9.20.2012::16:24:44;
+						- strongCGTime = 9.20.2012::16:19:54;
+						- _multiplicity = "";
+						- _itsStateChart = { IHandle 
+							- _m2Class = "";
+						}
+						- _classModifier = Unspecified;
+					}
+				}
+				{ IPart 
+					- _id = GUID 21827f08-0337-11e2-b266-0022645fb25d;
+					- _myState = 8192;
+					- _name = "__fillExecutors";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 21827f09-0337-11e2-b266-0022645fb25d;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+					- _implicitClass = { IClass 
+						- _id = GUID 21827f09-0337-11e2-b266-0022645fb25d;
+						- _myState = 10240;
+						- _name = "__fillExecutors";
+						- Dependencies = { IRPYRawContainer 
+							- size = 3;
+							- value = 
+							{ IDependency 
+								- _id = GUID a79bc31f-0338-11e2-83e0-0022645fb25d;
+								- _myState = 2048;
+								- _name = "__dispatchTask";
+								- _dependsOn = { INObjectHandle 
+									- _m2Class = "IClass";
+									- _id = GUID d4f8a51a-0335-11e2-b4c0-0022645fb25d;
+								}
+							}
+							{ IDependency 
+								- _id = GUID f715103b-0338-11e2-b1ba-0022645fb25d;
+								- _myState = 2048;
+								- _name = "__sendTaskToExecutor";
+								- _dependsOn = { INObjectHandle 
+									- _m2Class = "IClass";
+									- _id = GUID a3705bb9-0337-11e2-a2f2-0022645fb25d;
+								}
+							}
+							{ IDependency 
+								- _id = GUID f715117d-0338-11e2-b1ba-0022645fb25d;
+								- _myState = 2048;
+								- _name = "__unfreezeTasks";
+								- _dependsOn = { INObjectHandle 
+									- _m2Class = "IClass";
+									- _id = GUID a3705c9b-0337-11e2-a2f2-0022645fb25d;
+								}
+							}
+						}
+						- _theMainDiagram = { IHandle 
+							- _m2Class = "IStructureDiagram";
+							- _filename = "";
+							- _subsystem = "";
+							- _class = "";
+							- _name = "Dependencies";
+							- _id = GUID d4f8a2e8-0335-11e2-b4c0-0022645fb25d;
+						}
+						- _lastID = 3;
+						- weakCGTime = 9.20.2012::16:42:21;
+						- strongCGTime = 9.20.2012::16:27:12;
+						- _multiplicity = "";
+						- _itsStateChart = { IHandle 
+							- _m2Class = "";
+						}
+						- _classModifier = Unspecified;
+					}
+				}
+				{ IPart 
+					- _id = GUID a3705a67-0337-11e2-a2f2-0022645fb25d;
+					- _myState = 8192;
+					- _name = "__freezeTask";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID a3705a68-0337-11e2-a2f2-0022645fb25d;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+					- _implicitClass = { IClass 
+						- _id = GUID a3705a68-0337-11e2-a2f2-0022645fb25d;
+						- _myState = 10240;
+						- _name = "__freezeTask";
+						- Dependencies = { IRPYRawContainer 
+							- size = 2;
+							- value = 
+							{ IDependency 
+								- _id = GUID 993b8f6f-033a-11e2-9e94-0022645fb25d;
+								- _myState = 2048;
+								- _name = "object_6";
+								- _dependsOn = { INObjectHandle 
+									- _m2Class = "IClass";
+									- _id = GUID fd30bd94-0337-11e2-bed8-0022645fb25d;
+								}
+							}
+							{ IDependency 
+								- _id = GUID 7a5cd08f-033c-11e2-b51c-0022645fb25d;
+								- _myState = 2048;
+								- _name = "object_21";
+								- _dependsOn = { INObjectHandle 
+									- _m2Class = "IClass";
+									- _id = GUID a79bc052-0338-11e2-83e0-0022645fb25d;
+								}
+							}
+						}
+						- _theMainDiagram = { IHandle 
+							- _m2Class = "IStructureDiagram";
+							- _filename = "";
+							- _subsystem = "";
+							- _class = "";
+							- _name = "Dependencies";
+							- _id = GUID d4f8a2e8-0335-11e2-b4c0-0022645fb25d;
+						}
+						- _lastID = 2;
+						- weakCGTime = 9.20.2012::17:2:25;
+						- strongCGTime = 9.20.2012::16:27:59;
+						- _multiplicity = "";
+						- _itsStateChart = { IHandle 
+							- _m2Class = "";
+						}
+						- _classModifier = Unspecified;
+					}
+				}
+				{ IPart 
+					- _id = GUID a3705bb8-0337-11e2-a2f2-0022645fb25d;
+					- _myState = 8192;
+					- _name = "__sendTaskToExecutor";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID a3705bb9-0337-11e2-a2f2-0022645fb25d;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+					- _implicitClass = { IClass 
+						- _id = GUID a3705bb9-0337-11e2-a2f2-0022645fb25d;
+						- _myState = 10240;
+						- _name = "__sendTaskToExecutor";
+						- Dependencies = { IRPYRawContainer 
+							- size = 4;
+							- value = 
+							{ IDependency 
+								- _id = GUID 993b9228-033a-11e2-9e94-0022645fb25d;
+								- _myState = 2048;
+								- _name = "object_9";
+								- _dependsOn = { INObjectHandle 
+									- _m2Class = "IClass";
+									- _id = GUID 4539e4e4-0338-11e2-bf4a-0022645fb25d;
+								}
+							}
+							{ IDependency 
+								- _id = GUID 993b92c1-033a-11e2-9e94-0022645fb25d;
+								- _myState = 2048;
+								- _name = "object_10";
+								- _dependsOn = { INObjectHandle 
+									- _m2Class = "IClass";
+									- _id = GUID 4539e5c4-0338-11e2-bf4a-0022645fb25d;
+								}
+							}
+							{ IDependency 
+								- _id = GUID 60ee9b32-033b-11e2-934a-0022645fb25d;
+								- _myState = 2048;
+								- _name = "object_11";
+								- _dependsOn = { INObjectHandle 
+									- _m2Class = "IClass";
+									- _id = GUID 4539e6a4-0338-11e2-bf4a-0022645fb25d;
+								}
+							}
+							{ IDependency 
+								- _id = GUID 7a5cd197-033c-11e2-b51c-0022645fb25d;
+								- _myState = 2048;
+								- _name = "object_22";
+								- _dependsOn = { INObjectHandle 
+									- _m2Class = "IClass";
+									- _id = GUID a79bc132-0338-11e2-83e0-0022645fb25d;
+								}
+							}
+						}
+						- _theMainDiagram = { IHandle 
+							- _m2Class = "IStructureDiagram";
+							- _filename = "";
+							- _subsystem = "";
+							- _class = "";
+							- _name = "Dependencies";
+							- _id = GUID d4f8a2e8-0335-11e2-b4c0-0022645fb25d;
+						}
+						- _lastID = 5;
+						- weakCGTime = 9.22.2012::16:33:48;
+						- strongCGTime = 9.20.2012::16:28:38;
+						- _multiplicity = "";
+						- _itsStateChart = { IHandle 
+							- _m2Class = "";
+						}
+						- _classModifier = Unspecified;
+					}
+				}
+				{ IPart 
+					- _id = GUID a3705c9a-0337-11e2-a2f2-0022645fb25d;
+					- _myState = 8192;
+					- _name = "__unfreezeTasks";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID a3705c9b-0337-11e2-a2f2-0022645fb25d;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+					- _implicitClass = { IClass 
+						- _id = GUID a3705c9b-0337-11e2-a2f2-0022645fb25d;
+						- _myState = 10240;
+						- _name = "__unfreezeTasks";
+						- _theMainDiagram = { IHandle 
+							- _m2Class = "IStructureDiagram";
+							- _filename = "";
+							- _subsystem = "";
+							- _class = "";
+							- _name = "Dependencies";
+							- _id = GUID d4f8a2e8-0335-11e2-b4c0-0022645fb25d;
+						}
+						- weakCGTime = 9.20.2012::16:28:53;
+						- strongCGTime = 9.20.2012::16:28:53;
+						- _multiplicity = "";
+						- _itsStateChart = { IHandle 
+							- _m2Class = "";
+						}
+						- _classModifier = Unspecified;
+					}
+				}
+				{ IPart 
+					- _id = GUID a3705da0-0337-11e2-a2f2-0022645fb25d;
+					- _myState = 10240;
+					- _name = "object_1";
+					- _displayName = "__doPeriodicStuff";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID a3705da1-0337-11e2-a2f2-0022645fb25d;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+					- _implicitClass = { IClass 
+						- _id = GUID a3705da1-0337-11e2-a2f2-0022645fb25d;
+						- _myState = 10240;
+						- _name = "object_1";
+						- Dependencies = { IRPYRawContainer 
+							- size = 2;
+							- value = 
+							{ IDependency 
+								- _id = GUID a79bc2d0-0338-11e2-83e0-0022645fb25d;
+								- _myState = 2048;
+								- _name = "__dispatchTask";
+								- _dependsOn = { INObjectHandle 
+									- _m2Class = "IClass";
+									- _id = GUID d4f8a51a-0335-11e2-b4c0-0022645fb25d;
+								}
+							}
+							{ IDependency 
+								- _id = GUID f7151130-0338-11e2-b1ba-0022645fb25d;
+								- _myState = 2048;
+								- _name = "__unfreezeTasks";
+								- _dependsOn = { INObjectHandle 
+									- _m2Class = "IClass";
+									- _id = GUID a3705c9b-0337-11e2-a2f2-0022645fb25d;
+								}
+							}
+						}
+						- _theMainDiagram = { IHandle 
+							- _m2Class = "IStructureDiagram";
+							- _filename = "";
+							- _subsystem = "";
+							- _class = "";
+							- _name = "Dependencies";
+							- _id = GUID d4f8a2e8-0335-11e2-b4c0-0022645fb25d;
+						}
+						- _lastID = 2;
+						- weakCGTime = 9.20.2012::16:41:56;
+						- strongCGTime = 9.20.2012::16:29:29;
+						- _multiplicity = "";
+						- _itsStateChart = { IHandle 
+							- _m2Class = "";
+						}
+						- _classModifier = Unspecified;
+					}
+				}
+				{ IPart 
+					- _id = GUID a3705e80-0337-11e2-a2f2-0022645fb25d;
+					- _myState = 10240;
+					- _name = "object_3";
+					- _displayName = "addExecutor";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID fd30bad0-0337-11e2-bed8-0022645fb25d;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+					- _implicitClass = { IClass 
+						- _id = GUID fd30bad0-0337-11e2-bed8-0022645fb25d;
+						- _myState = 10240;
+						- _name = "object_3";
+						- Dependencies = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IDependency 
+								- _id = GUID f7150ed4-0338-11e2-b1ba-0022645fb25d;
+								- _myState = 2048;
+								- _name = "__fillExecutors";
+								- _dependsOn = { INObjectHandle 
+									- _m2Class = "IClass";
+									- _id = GUID 21827f09-0337-11e2-b266-0022645fb25d;
+								}
+							}
+						}
+						- _theMainDiagram = { IHandle 
+							- _m2Class = "IStructureDiagram";
+							- _filename = "";
+							- _subsystem = "";
+							- _class = "";
+							- _name = "Dependencies";
+							- _id = GUID d4f8a2e8-0335-11e2-b4c0-0022645fb25d;
+						}
+						- _lastID = 1;
+						- weakCGTime = 9.20.2012::16:38:59;
+						- strongCGTime = 9.20.2012::16:29:38;
+						- _multiplicity = "";
+						- _itsStateChart = { IHandle 
+							- _m2Class = "";
+						}
+						- _classModifier = Unspecified;
+					}
+				}
+				{ IPart 
+					- _id = GUID fd30bbd3-0337-11e2-bed8-0022645fb25d;
+					- _myState = 10240;
+					- _name = "object_4";
+					- _displayName = "addTask";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID fd30bbd4-0337-11e2-bed8-0022645fb25d;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+					- _implicitClass = { IClass 
+						- _id = GUID fd30bbd4-0337-11e2-bed8-0022645fb25d;
+						- _myState = 10240;
+						- _name = "object_4";
+						- Dependencies = { IRPYRawContainer 
+							- size = 2;
+							- value = 
+							{ IDependency 
+								- _id = GUID a79bc31d-0338-11e2-83e0-0022645fb25d;
+								- _myState = 2048;
+								- _name = "__dispatchTask";
+								- _dependsOn = { INObjectHandle 
+									- _m2Class = "IClass";
+									- _id = GUID d4f8a51a-0335-11e2-b4c0-0022645fb25d;
+								}
+							}
+							{ IDependency 
+								- _id = GUID c5851a89-0339-11e2-9168-0022645fb25d;
+								- _myState = 2048;
+								- _name = "__unfreezeTasks";
+								- _dependsOn = { INObjectHandle 
+									- _m2Class = "IClass";
+									- _id = GUID a3705c9b-0337-11e2-a2f2-0022645fb25d;
+								}
+							}
+						}
+						- _theMainDiagram = { IHandle 
+							- _m2Class = "IStructureDiagram";
+							- _filename = "";
+							- _subsystem = "";
+							- _class = "";
+							- _name = "Dependencies";
+							- _id = GUID d4f8a2e8-0335-11e2-b4c0-0022645fb25d;
+						}
+						- _lastID = 2;
+						- weakCGTime = 9.20.2012::16:42:33;
+						- strongCGTime = 9.20.2012::16:31:10;
+						- _multiplicity = "";
+						- _itsStateChart = { IHandle 
+							- _m2Class = "";
+						}
+						- _classModifier = Unspecified;
+					}
+				}
+				{ IPart 
+					- _id = GUID fd30bcb3-0337-11e2-bed8-0022645fb25d;
+					- _myState = 10240;
+					- _name = "object_5";
+					- _displayName = "cleanState";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID fd30bcb4-0337-11e2-bed8-0022645fb25d;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+					- _implicitClass = { IClass 
+						- _id = GUID fd30bcb4-0337-11e2-bed8-0022645fb25d;
+						- _myState = 10240;
+						- _name = "object_5";
+						- _theMainDiagram = { IHandle 
+							- _m2Class = "IStructureDiagram";
+							- _filename = "";
+							- _subsystem = "";
+							- _class = "";
+							- _name = "Dependencies";
+							- _id = GUID d4f8a2e8-0335-11e2-b4c0-0022645fb25d;
+						}
+						- weakCGTime = 9.20.2012::16:31:17;
+						- strongCGTime = 9.20.2012::16:31:17;
+						- _multiplicity = "";
+						- _itsStateChart = { IHandle 
+							- _m2Class = "";
+						}
+						- _classModifier = Unspecified;
+					}
+				}
+				{ IPart 
+					- _id = GUID fd30bd93-0337-11e2-bed8-0022645fb25d;
+					- _myState = 10240;
+					- _name = "object_6";
+					- _displayName = "commitChanges";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID fd30bd94-0337-11e2-bed8-0022645fb25d;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+					- _implicitClass = { IClass 
+						- _id = GUID fd30bd94-0337-11e2-bed8-0022645fb25d;
+						- _myState = 10240;
+						- _name = "object_6";
+						- Dependencies = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IDependency 
+								- _id = GUID c5851d65-0339-11e2-9168-0022645fb25d;
+								- _myState = 2048;
+								- _name = "object_5";
+								- _dependsOn = { INObjectHandle 
+									- _m2Class = "IClass";
+									- _id = GUID fd30bcb4-0337-11e2-bed8-0022645fb25d;
+								}
+							}
+						}
+						- _theMainDiagram = { IHandle 
+							- _m2Class = "IStructureDiagram";
+							- _filename = "";
+							- _subsystem = "";
+							- _class = "";
+							- _name = "Dependencies";
+							- _id = GUID d4f8a2e8-0335-11e2-b4c0-0022645fb25d;
+						}
+						- _lastID = 1;
+						- weakCGTime = 9.20.2012::16:45:14;
+						- strongCGTime = 9.20.2012::16:31:23;
+						- _multiplicity = "";
+						- _itsStateChart = { IHandle 
+							- _m2Class = "";
+						}
+						- _classModifier = Unspecified;
+					}
+				}
+				{ IPart 
+					- _id = GUID fd30be74-0337-11e2-bed8-0022645fb25d;
+					- _myState = 10240;
+					- _name = "object_7";
+					- _displayName = "conn_connected";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID fd30be75-0337-11e2-bed8-0022645fb25d;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+					- _implicitClass = { IClass 
+						- _id = GUID fd30be75-0337-11e2-bed8-0022645fb25d;
+						- _myState = 10240;
+						- _name = "object_7";
+						- Dependencies = { IRPYRawContainer 
+							- size = 2;
+							- value = 
+							{ IDependency 
+								- _id = GUID c5851bc6-0339-11e2-9168-0022645fb25d;
+								- _myState = 2048;
+								- _name = "object_3";
+								- _dependsOn = { INObjectHandle 
+									- _m2Class = "IClass";
+									- _id = GUID fd30bad0-0337-11e2-bed8-0022645fb25d;
+								}
+							}
+							{ IDependency 
+								- _id = GUID c5851c5d-0339-11e2-9168-0022645fb25d;
+								- _myState = 2048;
+								- _name = "object_4";
+								- _dependsOn = { INObjectHandle 
+									- _m2Class = "IClass";
+									- _id = GUID fd30bbd4-0337-11e2-bed8-0022645fb25d;
+								}
+							}
+						}
+						- _theMainDiagram = { IHandle 
+							- _m2Class = "IStructureDiagram";
+							- _filename = "";
+							- _subsystem = "";
+							- _class = "";
+							- _name = "Dependencies";
+							- _id = GUID d4f8a2e8-0335-11e2-b4c0-0022645fb25d;
+						}
+						- _lastID = 2;
+						- weakCGTime = 9.20.2012::16:43:24;
+						- strongCGTime = 9.20.2012::16:31:31;
+						- _multiplicity = "";
+						- _itsStateChart = { IHandle 
+							- _m2Class = "";
+						}
+						- _classModifier = Unspecified;
+					}
+				}
+				{ IPart 
+					- _id = GUID fd30bf54-0337-11e2-bed8-0022645fb25d;
+					- _myState = 10240;
+					- _name = "object_8";
+					- _displayName = "conn_drop";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID fd30bf55-0337-11e2-bed8-0022645fb25d;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+					- _implicitClass = { IClass 
+						- _id = GUID fd30bf55-0337-11e2-bed8-0022645fb25d;
+						- _myState = 10240;
+						- _name = "object_8";
+						- _theMainDiagram = { IHandle 
+							- _m2Class = "IStructureDiagram";
+							- _filename = "";
+							- _subsystem = "";
+							- _class = "";
+							- _name = "Dependencies";
+							- _id = GUID d4f8a2e8-0335-11e2-b4c0-0022645fb25d;
+						}
+						- _lastID = 1;
+						- weakCGTime = 9.22.2012::16:33:48;
+						- strongCGTime = 9.20.2012::16:31:36;
+						- _multiplicity = "";
+						- _itsStateChart = { IHandle 
+							- _m2Class = "";
+						}
+						- _classModifier = Unspecified;
+					}
+				}
+				{ IPart 
+					- _id = GUID 4539e4e3-0338-11e2-bf4a-0022645fb25d;
+					- _myState = 10240;
+					- _name = "object_9";
+					- _displayName = "ExecutorQueues_popTask";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 4539e4e4-0338-11e2-bf4a-0022645fb25d;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+					- _implicitClass = { IClass 
+						- _id = GUID 4539e4e4-0338-11e2-bf4a-0022645fb25d;
+						- _myState = 10240;
+						- _name = "object_9";
+						- _theMainDiagram = { IHandle 
+							- _m2Class = "IStructureDiagram";
+							- _filename = "";
+							- _subsystem = "";
+							- _class = "";
+							- _name = "Dependencies";
+							- _id = GUID d4f8a2e8-0335-11e2-b4c0-0022645fb25d;
+						}
+						- weakCGTime = 9.20.2012::16:31:45;
+						- strongCGTime = 9.20.2012::16:31:45;
+						- _multiplicity = "";
+						- _itsStateChart = { IHandle 
+							- _m2Class = "";
+						}
+						- _classModifier = Unspecified;
+					}
+				}
+				{ IPart 
+					- _id = GUID 4539e5c3-0338-11e2-bf4a-0022645fb25d;
+					- _myState = 10240;
+					- _name = "object_10";
+					- _displayName = "ExecutorQueues_pushTask";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 4539e5c4-0338-11e2-bf4a-0022645fb25d;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+					- _implicitClass = { IClass 
+						- _id = GUID 4539e5c4-0338-11e2-bf4a-0022645fb25d;
+						- _myState = 10240;
+						- _name = "object_10";
+						- _theMainDiagram = { IHandle 
+							- _m2Class = "IStructureDiagram";
+							- _filename = "";
+							- _subsystem = "";
+							- _class = "";
+							- _name = "Dependencies";
+							- _id = GUID d4f8a2e8-0335-11e2-b4c0-0022645fb25d;
+						}
+						- weakCGTime = 9.20.2012::16:31:54;
+						- strongCGTime = 9.20.2012::16:31:54;
+						- _multiplicity = "";
+						- _itsStateChart = { IHandle 
+							- _m2Class = "";
+						}
+						- _classModifier = Unspecified;
+					}
+				}
+				{ IPart 
+					- _id = GUID 4539e6a3-0338-11e2-bf4a-0022645fb25d;
+					- _myState = 10240;
+					- _name = "object_11";
+					- _displayName = "ExecutorState_removeTask";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 4539e6a4-0338-11e2-bf4a-0022645fb25d;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+					- _implicitClass = { IClass 
+						- _id = GUID 4539e6a4-0338-11e2-bf4a-0022645fb25d;
+						- _myState = 10240;
+						- _name = "object_11";
+						- _theMainDiagram = { IHandle 
+							- _m2Class = "IStructureDiagram";
+							- _filename = "";
+							- _subsystem = "";
+							- _class = "";
+							- _name = "Dependencies";
+							- _id = GUID d4f8a2e8-0335-11e2-b4c0-0022645fb25d;
+						}
+						- weakCGTime = 9.20.2012::16:32:6;
+						- strongCGTime = 9.20.2012::16:32:6;
+						- _multiplicity = "";
+						- _itsStateChart = { IHandle 
+							- _m2Class = "";
+						}
+						- _classModifier = Unspecified;
+					}
+				}
+				{ IPart 
+					- _id = GUID 4539e783-0338-11e2-bf4a-0022645fb25d;
+					- _myState = 10240;
+					- _name = "object_12";
+					- _displayName = "fastTrackDispatch";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 4539e784-0338-11e2-bf4a-0022645fb25d;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+					- _implicitClass = { IClass 
+						- _id = GUID 4539e784-0338-11e2-bf4a-0022645fb25d;
+						- _myState = 10240;
+						- _name = "object_12";
+						- _theMainDiagram = { IHandle 
+							- _m2Class = "IStructureDiagram";
+							- _filename = "";
+							- _subsystem = "";
+							- _class = "";
+							- _name = "Dependencies";
+							- _id = GUID d4f8a2e8-0335-11e2-b4c0-0022645fb25d;
+						}
+						- weakCGTime = 9.20.2012::16:32:14;
+						- strongCGTime = 9.20.2012::16:32:14;
+						- _multiplicity = "";
+						- _itsStateChart = { IHandle 
+							- _m2Class = "";
+						}
+						- _classModifier = Unspecified;
+					}
+				}
+				{ IPart 
+					- _id = GUID 4539e863-0338-11e2-bf4a-0022645fb25d;
+					- _myState = 10240;
+					- _name = "object_13";
+					- _displayName = "initializeHandler";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 4539e864-0338-11e2-bf4a-0022645fb25d;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+					- _implicitClass = { IClass 
+						- _id = GUID 4539e864-0338-11e2-bf4a-0022645fb25d;
+						- _myState = 10240;
+						- _name = "object_13";
+						- _theMainDiagram = { IHandle 
+							- _m2Class = "IStructureDiagram";
+							- _filename = "";
+							- _subsystem = "";
+							- _class = "";
+							- _name = "Dependencies";
+							- _id = GUID d4f8a2e8-0335-11e2-b4c0-0022645fb25d;
+						}
+						- weakCGTime = 9.20.2012::16:32:28;
+						- strongCGTime = 9.20.2012::16:32:28;
+						- _multiplicity = "";
+						- _itsStateChart = { IHandle 
+							- _m2Class = "";
+						}
+						- _classModifier = Unspecified;
+					}
+				}
+				{ IPart 
+					- _id = GUID 656f21b2-0338-11e2-aa5c-0022645fb25d;
+					- _myState = 10240;
+					- _name = "object_14";
+					- _displayName = "launch_Dirac_executors";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 656f21b3-0338-11e2-aa5c-0022645fb25d;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+					- _implicitClass = { IClass 
+						- _id = GUID 656f21b3-0338-11e2-aa5c-0022645fb25d;
+						- _myState = 10240;
+						- _name = "object_14";
+						- _theMainDiagram = { IHandle 
+							- _m2Class = "IStructureDiagram";
+							- _filename = "";
+							- _subsystem = "";
+							- _class = "";
+							- _name = "Dependencies";
+							- _id = GUID d4f8a2e8-0335-11e2-b4c0-0022645fb25d;
+						}
+						- weakCGTime = 9.20.2012::16:32:36;
+						- strongCGTime = 9.20.2012::16:32:36;
+						- _multiplicity = "";
+						- _itsStateChart = { IHandle 
+							- _m2Class = "";
+						}
+						- _classModifier = Unspecified;
+					}
+				}
+				{ IPart 
+					- _id = GUID 656f22cc-0338-11e2-aa5c-0022645fb25d;
+					- _myState = 10240;
+					- _name = "object_15";
+					- _displayName = "msg_ExecutorError";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 656f22cd-0338-11e2-aa5c-0022645fb25d;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+					- _implicitClass = { IClass 
+						- _id = GUID 656f22cd-0338-11e2-aa5c-0022645fb25d;
+						- _myState = 10240;
+						- _name = "object_15";
+						- _theMainDiagram = { IHandle 
+							- _m2Class = "IStructureDiagram";
+							- _filename = "";
+							- _subsystem = "";
+							- _class = "";
+							- _name = "Dependencies";
+							- _id = GUID d4f8a2e8-0335-11e2-b4c0-0022645fb25d;
+						}
+						- _lastID = 1;
+						- weakCGTime = 9.22.2012::16:33:48;
+						- strongCGTime = 9.20.2012::16:33:42;
+						- _multiplicity = "";
+						- _itsStateChart = { IHandle 
+							- _m2Class = "";
+						}
+						- _classModifier = Unspecified;
+					}
+				}
+				{ IPart 
+					- _id = GUID 656f23ac-0338-11e2-aa5c-0022645fb25d;
+					- _myState = 10240;
+					- _name = "object_16";
+					- _displayName = "msg_OptimizeJobs";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 656f23ad-0338-11e2-aa5c-0022645fb25d;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+					- _implicitClass = { IClass 
+						- _id = GUID 656f23ad-0338-11e2-aa5c-0022645fb25d;
+						- _myState = 10240;
+						- _name = "object_16";
+						- Dependencies = { IRPYRawContainer 
+							- size = 3;
+							- value = 
+							{ IDependency 
+								- _id = GUID c5851caa-0339-11e2-9168-0022645fb25d;
+								- _myState = 2048;
+								- _name = "object_4";
+								- _dependsOn = { INObjectHandle 
+									- _m2Class = "IClass";
+									- _id = GUID fd30bbd4-0337-11e2-bed8-0022645fb25d;
+								}
+							}
+							{ IDependency 
+								- _id = GUID c5851d63-0339-11e2-9168-0022645fb25d;
+								- _myState = 2048;
+								- _name = "object_5";
+								- _dependsOn = { INObjectHandle 
+									- _m2Class = "IClass";
+									- _id = GUID fd30bcb4-0337-11e2-bed8-0022645fb25d;
+								}
+							}
+							{ IDependency 
+								- _id = GUID 7a5cd0ec-033c-11e2-b51c-0022645fb25d;
+								- _myState = 2048;
+								- _name = "object_21";
+								- _dependsOn = { INObjectHandle 
+									- _m2Class = "IClass";
+									- _id = GUID a79bc052-0338-11e2-83e0-0022645fb25d;
+								}
+							}
+						}
+						- _theMainDiagram = { IHandle 
+							- _m2Class = "IStructureDiagram";
+							- _filename = "";
+							- _subsystem = "";
+							- _class = "";
+							- _name = "Dependencies";
+							- _id = GUID d4f8a2e8-0335-11e2-b4c0-0022645fb25d;
+						}
+						- _lastID = 3;
+						- weakCGTime = 9.20.2012::17:2:52;
+						- strongCGTime = 9.20.2012::16:33:52;
+						- _multiplicity = "";
+						- _itsStateChart = { IHandle 
+							- _m2Class = "";
+						}
+						- _classModifier = Unspecified;
+					}
+				}
+				{ IPart 
+					- _id = GUID 656f248c-0338-11e2-aa5c-0022645fb25d;
+					- _myState = 10240;
+					- _name = "object_17";
+					- _displayName = "msg_TaskDone";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 656f248d-0338-11e2-aa5c-0022645fb25d;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+					- _implicitClass = { IClass 
+						- _id = GUID 656f248d-0338-11e2-aa5c-0022645fb25d;
+						- _myState = 10240;
+						- _name = "object_17";
+						- Dependencies = { IRPYRawContainer 
+							- size = 5;
+							- value = 
+							{ IDependency 
+								- _id = GUID f7150d0d-0338-11e2-b1ba-0022645fb25d;
+								- _myState = 2048;
+								- _name = "__dispatchTask";
+								- _dependsOn = { INObjectHandle 
+									- _m2Class = "IClass";
+									- _id = GUID d4f8a51a-0335-11e2-b4c0-0022645fb25d;
+								}
+							}
+							{ IDependency 
+								- _id = GUID f7151039-0338-11e2-b1ba-0022645fb25d;
+								- _myState = 2048;
+								- _name = "__sendTaskToExecutor";
+								- _dependsOn = { INObjectHandle 
+									- _m2Class = "IClass";
+									- _id = GUID a3705bb9-0337-11e2-a2f2-0022645fb25d;
+								}
+							}
+							{ IDependency 
+								- _id = GUID 993b8fbe-033a-11e2-9e94-0022645fb25d;
+								- _myState = 2048;
+								- _name = "object_6";
+								- _dependsOn = { INObjectHandle 
+									- _m2Class = "IClass";
+									- _id = GUID fd30bd94-0337-11e2-bed8-0022645fb25d;
+								}
+							}
+							{ IDependency 
+								- _id = GUID 60ee9b34-033b-11e2-934a-0022645fb25d;
+								- _myState = 2048;
+								- _name = "object_11";
+								- _dependsOn = { INObjectHandle 
+									- _m2Class = "IClass";
+									- _id = GUID 4539e6a4-0338-11e2-bf4a-0022645fb25d;
+								}
+							}
+							{ IDependency 
+								- _id = GUID 7a5cd0ee-033c-11e2-b51c-0022645fb25d;
+								- _myState = 2048;
+								- _name = "object_21";
+								- _dependsOn = { INObjectHandle 
+									- _m2Class = "IClass";
+									- _id = GUID a79bc052-0338-11e2-83e0-0022645fb25d;
+								}
+							}
+						}
+						- _theMainDiagram = { IHandle 
+							- _m2Class = "IStructureDiagram";
+							- _filename = "";
+							- _subsystem = "";
+							- _class = "";
+							- _name = "Dependencies";
+							- _id = GUID d4f8a2e8-0335-11e2-b4c0-0022645fb25d;
+						}
+						- _lastID = 6;
+						- weakCGTime = 9.22.2012::16:33:48;
+						- strongCGTime = 9.20.2012::16:34:2;
+						- _multiplicity = "";
+						- _itsStateChart = { IHandle 
+							- _m2Class = "";
+						}
+						- _classModifier = Unspecified;
+					}
+				}
+				{ IPart 
+					- _id = GUID 656f256c-0338-11e2-aa5c-0022645fb25d;
+					- _myState = 10240;
+					- _name = "object_18";
+					- _displayName = "msg_TaskError";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 656f256d-0338-11e2-aa5c-0022645fb25d;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+					- _implicitClass = { IClass 
+						- _id = GUID 656f256d-0338-11e2-aa5c-0022645fb25d;
+						- _myState = 10240;
+						- _name = "object_18";
+						- Dependencies = { IRPYRawContainer 
+							- size = 2;
+							- value = 
+							{ IDependency 
+								- _id = GUID 993b8fbc-033a-11e2-9e94-0022645fb25d;
+								- _myState = 2048;
+								- _name = "object_6";
+								- _dependsOn = { INObjectHandle 
+									- _m2Class = "IClass";
+									- _id = GUID fd30bd94-0337-11e2-bed8-0022645fb25d;
+								}
+							}
+							{ IDependency 
+								- _id = GUID 7a5cd0f0-033c-11e2-b51c-0022645fb25d;
+								- _myState = 2048;
+								- _name = "object_21";
+								- _dependsOn = { INObjectHandle 
+									- _m2Class = "IClass";
+									- _id = GUID a79bc052-0338-11e2-83e0-0022645fb25d;
+								}
+							}
+						}
+						- _theMainDiagram = { IHandle 
+							- _m2Class = "IStructureDiagram";
+							- _filename = "";
+							- _subsystem = "";
+							- _class = "";
+							- _name = "Dependencies";
+							- _id = GUID d4f8a2e8-0335-11e2-b4c0-0022645fb25d;
+						}
+						- _lastID = 2;
+						- weakCGTime = 9.20.2012::17:3:11;
+						- strongCGTime = 9.20.2012::16:34:12;
+						- _multiplicity = "";
+						- _itsStateChart = { IHandle 
+							- _m2Class = "";
+						}
+						- _classModifier = Unspecified;
+					}
+				}
+				{ IPart 
+					- _id = GUID 656f265e-0338-11e2-aa5c-0022645fb25d;
+					- _myState = 10240;
+					- _name = "object_19";
+					- _displayName = "msg_TaskFreeze";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 656f265f-0338-11e2-aa5c-0022645fb25d;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+					- _implicitClass = { IClass 
+						- _id = GUID 656f265f-0338-11e2-aa5c-0022645fb25d;
+						- _myState = 10240;
+						- _name = "object_19";
+						- Dependencies = { IRPYRawContainer 
+							- size = 5;
+							- value = 
+							{ IDependency 
+								- _id = GUID f7150d0f-0338-11e2-b1ba-0022645fb25d;
+								- _myState = 2048;
+								- _name = "__dispatchTask";
+								- _dependsOn = { INObjectHandle 
+									- _m2Class = "IClass";
+									- _id = GUID d4f8a51a-0335-11e2-b4c0-0022645fb25d;
+								}
+							}
+							{ IDependency 
+								- _id = GUID f7150f8d-0338-11e2-b1ba-0022645fb25d;
+								- _myState = 2048;
+								- _name = "__freezeTask";
+								- _dependsOn = { INObjectHandle 
+									- _m2Class = "IClass";
+									- _id = GUID a3705a68-0337-11e2-a2f2-0022645fb25d;
+								}
+							}
+							{ IDependency 
+								- _id = GUID f7151037-0338-11e2-b1ba-0022645fb25d;
+								- _myState = 2048;
+								- _name = "__sendTaskToExecutor";
+								- _dependsOn = { INObjectHandle 
+									- _m2Class = "IClass";
+									- _id = GUID a3705bb9-0337-11e2-a2f2-0022645fb25d;
+								}
+							}
+							{ IDependency 
+								- _id = GUID 993b8fc0-033a-11e2-9e94-0022645fb25d;
+								- _myState = 2048;
+								- _name = "object_6";
+								- _dependsOn = { INObjectHandle 
+									- _m2Class = "IClass";
+									- _id = GUID fd30bd94-0337-11e2-bed8-0022645fb25d;
+								}
+							}
+							{ IDependency 
+								- _id = GUID 60ee9b36-033b-11e2-934a-0022645fb25d;
+								- _myState = 2048;
+								- _name = "object_11";
+								- _dependsOn = { INObjectHandle 
+									- _m2Class = "IClass";
+									- _id = GUID 4539e6a4-0338-11e2-bf4a-0022645fb25d;
+								}
+							}
+						}
+						- _theMainDiagram = { IHandle 
+							- _m2Class = "IStructureDiagram";
+							- _filename = "";
+							- _subsystem = "";
+							- _class = "";
+							- _name = "Dependencies";
+							- _id = GUID d4f8a2e8-0335-11e2-b4c0-0022645fb25d;
+						}
+						- _lastID = 6;
+						- weakCGTime = 9.22.2012::16:33:48;
+						- strongCGTime = 9.20.2012::16:34:23;
+						- _multiplicity = "";
+						- _itsStateChart = { IHandle 
+							- _m2Class = "";
+						}
+						- _classModifier = Unspecified;
+					}
+				}
+				{ IPart 
+					- _id = GUID a79bc051-0338-11e2-83e0-0022645fb25d;
+					- _myState = 10240;
+					- _name = "object_21";
+					- _displayName = "removeTask";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID a79bc052-0338-11e2-83e0-0022645fb25d;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+					- _implicitClass = { IClass 
+						- _id = GUID a79bc052-0338-11e2-83e0-0022645fb25d;
+						- _myState = 10240;
+						- _name = "object_21";
+						- Dependencies = { IRPYRawContainer 
+							- size = 2;
+							- value = 
+							{ IDependency 
+								- _id = GUID f7151088-0338-11e2-b1ba-0022645fb25d;
+								- _myState = 2048;
+								- _name = "__sendTaskToExecutor";
+								- _dependsOn = { INObjectHandle 
+									- _m2Class = "IClass";
+									- _id = GUID a3705bb9-0337-11e2-a2f2-0022645fb25d;
+								}
+							}
+							{ IDependency 
+								- _id = GUID 993b93b6-033a-11e2-9e94-0022645fb25d;
+								- _myState = 2048;
+								- _name = "object_11";
+								- _dependsOn = { INObjectHandle 
+									- _m2Class = "IClass";
+									- _id = GUID 4539e6a4-0338-11e2-bf4a-0022645fb25d;
+								}
+							}
+						}
+						- _theMainDiagram = { IHandle 
+							- _m2Class = "IStructureDiagram";
+							- _filename = "";
+							- _subsystem = "";
+							- _class = "";
+							- _name = "Dependencies";
+							- _id = GUID d4f8a2e8-0335-11e2-b4c0-0022645fb25d;
+						}
+						- _lastID = 2;
+						- weakCGTime = 9.20.2012::16:53:50;
+						- strongCGTime = 9.20.2012::16:34:46;
+						- _multiplicity = "";
+						- _itsStateChart = { IHandle 
+							- _m2Class = "";
+						}
+						- _classModifier = Unspecified;
+					}
+				}
+				{ IPart 
+					- _id = GUID a79bc131-0338-11e2-83e0-0022645fb25d;
+					- _myState = 10240;
+					- _name = "object_22";
+					- _displayName = "SequenceDiagram_ClientSide";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID a79bc132-0338-11e2-83e0-0022645fb25d;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+					- _implicitClass = { IClass 
+						- _id = GUID a79bc132-0338-11e2-83e0-0022645fb25d;
+						- _myState = 10240;
+						- _name = "object_22";
+						- Dependencies = { IRPYRawContainer 
+							- size = 5;
+							- value = 
+							{ IDependency 
+								- _id = GUID 60ee9c3a-033b-11e2-934a-0022645fb25d;
+								- _myState = 2048;
+								- _name = "object_12";
+								- _dependsOn = { INObjectHandle 
+									- _m2Class = "IClass";
+									- _id = GUID 4539e784-0338-11e2-bf4a-0022645fb25d;
+								}
+							}
+							{ IDependency 
+								- _id = GUID 60ee9e0c-033b-11e2-934a-0022645fb25d;
+								- _myState = 2048;
+								- _name = "object_15";
+								- _dependsOn = { INObjectHandle 
+									- _m2Class = "IClass";
+									- _id = GUID 656f22cd-0338-11e2-aa5c-0022645fb25d;
+								}
+							}
+							{ IDependency 
+								- _id = GUID cf74114f-033b-11e2-8992-0022645fb25d;
+								- _myState = 2048;
+								- _name = "object_17";
+								- _dependsOn = { INObjectHandle 
+									- _m2Class = "IClass";
+									- _id = GUID 656f248d-0338-11e2-aa5c-0022645fb25d;
+								}
+							}
+							{ IDependency 
+								- _id = GUID cf7411e6-033b-11e2-8992-0022645fb25d;
+								- _myState = 2048;
+								- _name = "object_18";
+								- _dependsOn = { INObjectHandle 
+									- _m2Class = "IClass";
+									- _id = GUID 656f256d-0338-11e2-aa5c-0022645fb25d;
+								}
+							}
+							{ IDependency 
+								- _id = GUID cf74127d-033b-11e2-8992-0022645fb25d;
+								- _myState = 2048;
+								- _name = "object_19";
+								- _dependsOn = { INObjectHandle 
+									- _m2Class = "IClass";
+									- _id = GUID 656f265f-0338-11e2-aa5c-0022645fb25d;
+								}
+							}
+						}
+						- _theMainDiagram = { IHandle 
+							- _m2Class = "IStructureDiagram";
+							- _filename = "";
+							- _subsystem = "";
+							- _class = "";
+							- _name = "Dependencies";
+							- _id = GUID d4f8a2e8-0335-11e2-b4c0-0022645fb25d;
+						}
+						- _lastID = 5;
+						- weakCGTime = 9.20.2012::16:58:48;
+						- strongCGTime = 9.20.2012::16:34:57;
+						- _multiplicity = "";
+						- _itsStateChart = { IHandle 
+							- _m2Class = "";
+						}
+						- _classModifier = Unspecified;
+					}
+				}
+				{ IPart 
+					- _id = GUID a79bc212-0338-11e2-83e0-0022645fb25d;
+					- _myState = 10240;
+					- _name = "object_23";
+					- _displayName = "SequenceDiagram_ServerSide";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID a79bc213-0338-11e2-83e0-0022645fb25d;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+					- _implicitClass = { IClass 
+						- _id = GUID a79bc213-0338-11e2-83e0-0022645fb25d;
+						- _myState = 10240;
+						- _name = "object_23";
+						- Dependencies = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IDependency 
+								- _id = GUID cf7410a8-033b-11e2-8992-0022645fb25d;
+								- _myState = 2048;
+								- _name = "object_16";
+								- _dependsOn = { INObjectHandle 
+									- _m2Class = "IClass";
+									- _id = GUID 656f23ad-0338-11e2-aa5c-0022645fb25d;
+								}
+							}
+						}
+						- _theMainDiagram = { IHandle 
+							- _m2Class = "IStructureDiagram";
+							- _filename = "";
+							- _subsystem = "";
+							- _class = "";
+							- _name = "Dependencies";
+							- _id = GUID d4f8a2e8-0335-11e2-b4c0-0022645fb25d;
+						}
+						- _lastID = 1;
+						- weakCGTime = 9.20.2012::16:57:13;
+						- strongCGTime = 9.20.2012::16:35:10;
+						- _multiplicity = "";
+						- _itsStateChart = { IHandle 
+							- _m2Class = "";
+						}
+						- _classModifier = Unspecified;
+					}
+				}
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID 6c7c02dc-f6cd-11e1-9c12-c82a143cf4b0;
+			- _myState = 8192;
+			- _name = "ThreadingLock";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _filename = "$OMROOT/Profiles/MARTE/MARTE.sbs";
+					- _subsystem = "MARTE::MARTE_DesignModel::SRM::SW_Interaction";
+					- _class = "";
+					- _name = "SwMutualExclusionResource";
+					- _id = GUID 851cfc63-9fb9-4d39-88d6-a52facf3b800;
+				}
+			}
+			- _lastID = 40;
+			- weakCGTime = 9.5.2012::11:43:16;
+			- strongCGTime = 9.4.2012::21:32:26;
+			- Operations = { IRPYRawContainer 
+				- size = 3;
+				- value = 
+				{ IPrimitiveOperation 
+					- _id = GUID 712b0c55-f6d8-11e1-a09a-c82a143cf4b0;
+					- _myState = 8192;
+					- _name = "acquire";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 2;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "$OMROOT/Profiles/MARTE/MARTE.sbs";
+							- _subsystem = "MARTE::MARTE_AnalysisModel::GQAM";
+							- _class = "";
+							- _name = "GaAcqStep";
+							- _id = GUID 330bf183-17eb-45af-87e5-b329a98a47b3;
+						}
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "$OMROOT/Profiles/MARTE/MARTE.sbs";
+							- _subsystem = "MARTE::MARTE_Foundations::GRM";
+							- _class = "";
+							- _name = "Acquire";
+							- _id = GUID f4c73eec-f91d-44e0-b563-125cc204099d;
+						}
+					}
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesJava.sbs";
+						- _subsystem = "PredefinedTypesJava";
+						- _class = "";
+						- _name = "void";
+						- _id = GUID 38d26ae8-de64-4b2e-8b3e-d6cbe8e0a76d;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPublic;
+					- _static = 0;
+					- _constant = 0;
+				}
+				{ IPrimitiveOperation 
+					- _id = GUID 712b0c59-f6d8-11e1-a09a-c82a143cf4b0;
+					- _myState = 8192;
+					- _name = "release";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 2;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "$OMROOT/Profiles/MARTE/MARTE.sbs";
+							- _subsystem = "MARTE::MARTE_AnalysisModel::GQAM";
+							- _class = "";
+							- _name = "GaRelStep";
+							- _id = GUID 20b76301-0d59-433f-956e-20778dd24314;
+						}
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "$OMROOT/Profiles/MARTE/MARTE.sbs";
+							- _subsystem = "MARTE::MARTE_Foundations::GRM";
+							- _class = "";
+							- _name = "Release";
+							- _id = GUID 2cb1cb69-5c4c-49d8-9bdb-0f8ac7b24d0f;
+						}
+					}
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesJava.sbs";
+						- _subsystem = "PredefinedTypesJava";
+						- _class = "";
+						- _name = "void";
+						- _id = GUID 38d26ae8-de64-4b2e-8b3e-d6cbe8e0a76d;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPublic;
+					- _static = 0;
+					- _constant = 0;
+				}
+				{ IPrimitiveOperation 
+					- _id = GUID 712b0c5d-f6d8-11e1-a09a-c82a143cf4b0;
+					- _myState = 8192;
+					- _name = "notify";
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesJava.sbs";
+						- _subsystem = "PredefinedTypesJava";
+						- _class = "";
+						- _name = "void";
+						- _id = GUID 38d26ae8-de64-4b2e-8b3e-d6cbe8e0a76d;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPublic;
+					- _static = 0;
+					- _constant = 0;
+				}
+			}
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID d4f8a331-0335-11e2-b4c0-0022645fb25d;
+			- _myState = 10240;
+			- _name = "class_28";
+			- _theMainDiagram = { IHandle 
+				- _m2Class = "IStructureDiagram";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "Dependencies";
+				- _id = GUID d4f8a2e8-0335-11e2-b4c0-0022645fb25d;
+			}
+			- weakCGTime = 9.20.2012::16:17:48;
+			- strongCGTime = 9.20.2012::16:17:48;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID 7287bb97-0d39-11e2-873c-0022645fb25d;
+			- _myState = 8192;
+			- _name = "A";
+			- weakCGTime = 10.3.2012::10:35:27;
+			- strongCGTime = 10.3.2012::10:35:27;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID 7287bba2-0d39-11e2-873c-0022645fb25d;
+			- _myState = 8192;
+			- _name = "B";
+			- weakCGTime = 10.3.2012::10:35:45;
+			- strongCGTime = 10.3.2012::10:35:45;
+			- Operations = { IRPYRawContainer 
+				- size = 0;
+			}
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID 7287bbc5-0d39-11e2-873c-0022645fb25d;
+			- _myState = 8192;
+			- _name = "C";
+			- weakCGTime = 10.3.2012::10:36:10;
+			- strongCGTime = 10.3.2012::10:36:10;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID 7287bbcb-0d39-11e2-873c-0022645fb25d;
+			- _myState = 8192;
+			- _name = "D";
+			- weakCGTime = 10.3.2012::10:36:49;
+			- strongCGTime = 10.3.2012::10:36:49;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- _configurationRelatedTime = 10.3.2012::10:36:49;
+}
+

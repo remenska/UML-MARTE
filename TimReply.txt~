@@ -1,0 +1,49 @@
+Hi Tim,
+
+I'll merge the comments from both emails here. Sorry for the delay, I got a bit lost so I reviewed both models and the sequence diagram again.
+
+[I agree that my model is not one you should be looking at ;-) I presumed no-one fancied looking at mCRL2 code and people only wanted to maintain sequence diagrams, then generate mCRL2 code from that. That would do away with the aesthetic issues and the maintenance issues of keeping track of counters, right?]
+
+--> Absolutely, this is the idea, you're right. But in the prospect of a near future where we still do it by hand (following a procedure), and to protect ourselves against introducing modeling bugs of this monster of a python code, I disliked the counters at first glance :)   
+Yet, my concern was more in: how would the recipe proceed when "processing" another sequence diagram where the same object is involved as a lifeline..But I think I didn't fully understand your approach, and I think it would proceed more or less as with mine: just see if it's a new method call (incoming or outgoing) that hasn't been taken into account. If it's not, no change is needed; otherwise just increase counter and add a nondeterministic choice.
+Also, not relevant at this stage, but I notice the state space seems to be a lot smaller with my approach.
+Another aspect of the potential algorithm, which I didn't take into account (and I should!) is: how cumbersome would the temporal verification formulas become with the approach we take. This depends on what we want to verify of course, but it will be along the same lines: jobs/tasks stuck in some state, race conditions etc. In addition of course, adding rates for performance.
+
+[I think the buffers can be relaxed/modified in several ways:
+1. we could get rid of them by interpreting that sending and receiving of messages is via handshake. But this will reduce the number of bugs you can find: errors due to asynchronisity are hidden. Of course, you can hide the communication via the buffer, thereby allowing you to potentially reduce the state space..] 
+
+--> I think this is essentially where we depart with eachother's rationale behind the recipes, and my apologies for not making it clear in the first place. Not sure if we're on the same line with the definition of asynchronous vs synchronous: in my understanding, an object A making asynchronous call to object B simply doesn't wait (is not blocked) for a return from that method. In UML terms:
+"Asynchronous calls, which are associated with operations, typically have only a send message, but can also have a reply message. In contrast to a synchronous message, the source lifeline is not blocked from receiving or sending other messages." 
+On wikipedia (http://en.wikipedia.org/wiki/Sequence_diagram) it says:
+"Solid arrows with full heads are synchronous calls, solid arrows with stick heads are asynchronous calls and dashed arrows with stick heads are return messages. This definition is true as of UML 2, considerably different from UML 1.x"
+Mind the last sentence, maybe that where the confusion came from :)
+In the example sequence diagram that I sent you, there were only synchronous ones. Looking at the model and the python code again, there are no asynchronous calls that I can see. If an object invokes another one, it always expects a return. 
+Is that what you meant with "errors due to asynchronisity"?
+
+
+[It'd be good to meet tête-à-tête indeed for this, especially since I don't exactly know where to go from here, yet. But I'm kind of busy at the moment with teaching. Will you be attending ICT.OPEN? If so, that could be a natural venue  (although perhaps a bit late for you).]
+--> I plan to go, but yeah, a bit late probably. Nevermind, we'll try to resume in this fashion for now :)
+
+[For instance, I assumed the method call to innerMethod was just an invocation of a's own method, and it had nothing to do with the big block that followed. Your modeling suggests that all the activity that happens afterwards is in the scope of this method call. I could probably adapt my modeling to be a bit more hierarchical in this way, too, but perhaps I must have a bit better understanding of the syntax/semantics here too. I'm not sure why, but you seem to be treating innerMethod on instance a differently from method3 and method5 on instance b. Any reason for this?]
+
+--> Exactly, another reason for apology here! The thing is: Rational Rhapsody apparently doesn't allow layered blocks along one vertical lifeline, to distinguish between such cases :-/
+So unfortunately I'll have to sometimes refer back to the code if I'm unsure which case it was..
+But this is no problem in both approaches I suppose. I interpreted the innerMethod differently to see how well the procedure could be applied in such cases of multiple call nestings.
+ 
+[* we both don't seem to synchronize the process instances' choice on the [alt] regions. It might not manifest itself with the current model, but if you have an
+[alt] section that starts with the exact same message exchange in both regions, but then behaves differently, we create deadlocks, because a sending process instance might believe it is in, say, the top region, whereas the receiving process instance might believe it is in the lower region, expecting a different message altogether. I think it can be fixed in both our modeling approaches.]
+
+--> Something along this line?
+http://www.tracemodeler.com/articles/a_quick_introduction_to_uml_sequence_diagrams/
+I have no idea how to deal with it...except taking case by case, but no generic prescription.
+
+[* you don't currently seem to handle the [opt] part in instance a; probably you could do so easily using an if-then-else in mCRL2?]
+--> Yes and no. Yes, in the sense that it should behave correctly the way it is already: even though there are two incoming return-from-call arrows towards the lifeline of object "a", they cannot both happen in one scenario run. One of the two "method_var_end(method1')" actions of process "b" will handshake with the "method_call_end(method1')" of process "a". 
+And no, in the sense that, if I follow the prescription, I should treat the two arrows separately within process "a", as you say, but the condition of the box is within the scope of another object. Your approach handles this well, but I'm not sure how to easily do it with if-then-else? 
+This is why I mentioned my concern with multiple exit points from a method; in reality of course only one return will happen, depending on conditions known only to the object being called. I'm starting to like your approach better.
+
+Cheers,
+Daniela
+
+
+
