@@ -1,4 +1,4 @@
-I-Logix-RPY-Archive version 8.6.0 * 4012249
+I-Logix-RPY-Archive version 8.7.1 * 5066837
 { CGEMdiWorkspace 
 	- stubList = { IRPYRawContainer 
 		- size = 0;
@@ -16,10 +16,10 @@ I-Logix-RPY-Archive version 8.6.0 * 4012249
 				- m_ptMinPositionY = -1;
 				- m_ptMaxPositionX = -4;
 				- m_ptMaxPositionY = -23;
-				- m_nLeft = 60;
-				- m_nTop = 66;
-				- m_nRight = 588;
-				- m_nBottom = 429;
+				- m_nLeft = 52;
+				- m_nTop = 172;
+				- m_nRight = 580;
+				- m_nBottom = 535;
 			}
 			- _wasOpenedOnCloseProject = 1;
 			- _theDiagram = { IHandle 
@@ -31,19 +31,19 @@ I-Logix-RPY-Archive version 8.6.0 * 4012249
 				- _id = GUID 9b1d3a94-243b-11e2-9bb0-0022645fb25d;
 			}
 			- _UpLeft = 0 0 ;
-			- _DownRight = 500 296 ;
+			- _DownRight = 512 296 ;
 			- _instanceName = "";
 			- m_nDiagramIndex = 0;
 		}
 		{ CGEMdiDiagramParams 
 			- _placement = { CCommon_WINDOWPLACEMENT 
 				- m_nLength = 44;
-				- m_nFlags = 2;
-				- m_showCmd = 3;
+				- m_nFlags = 0;
+				- m_showCmd = 1;
 				- m_ptMinPositionX = -1;
 				- m_ptMinPositionY = -1;
 				- m_ptMaxPositionX = -4;
-				- m_ptMaxPositionY = -23;
+				- m_ptMaxPositionY = -30;
 				- m_nLeft = 60;
 				- m_nTop = 66;
 				- m_nRight = 775;
@@ -58,8 +58,8 @@ I-Logix-RPY-Archive version 8.6.0 * 4012249
 				- _name = "DanielaSD1";
 				- _id = GUID 291d548a-2439-11e2-922c-0022645fb25d;
 			}
-			- _UpLeft = 0 47 ;
-			- _DownRight = 636 522 ;
+			- _UpLeft = 0 110 ;
+			- _DownRight = 908 537 ;
 			- _instanceName = "";
 			- m_nDiagramIndex = 1;
 		}
@@ -87,12 +87,12 @@ I-Logix-RPY-Archive version 8.6.0 * 4012249
 				- _id = GUID b926bb17-21b0-11e2-9804-0022645fb25d;
 			}
 			- _UpLeft = 0 0 ;
-			- _DownRight = 561 351 ;
+			- _DownRight = 573 351 ;
 			- _instanceName = "";
 			- m_nDiagramIndex = 2;
 		}
 	}
-	- _fullName = "/home/daniela/sw/IBM/git/UML-MARTE/TestProject/TestProject";
+	- _fullName = "E:\\git\\UML-MARTE\\TestProject\\TestProject";
 	- m_SearchScopeList = { IRPYRawContainer 
 		- size = 0;
 	}
