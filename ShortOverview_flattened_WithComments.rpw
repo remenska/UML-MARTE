@@ -58,10 +58,10 @@ I-Logix-RPY-Archive version 8.6.0 * 4012249
 				- _name = "SequenceDiagram_ClientSide";
 				- _id = GUID a99097c8-eaaa-11e1-bbc6-0022645fb25d;
 			}
-			- _UpLeft = 260 923 ;
-			- _DownRight = 1133 1479 ;
+			- _UpLeft = 79 1882 ;
+			- _DownRight = 1108 2551 ;
 			- _instanceName = "";
-			- m_nDiagramIndex = 0;
+			- m_nDiagramIndex = 3;
 		}
 		{ CGEMdiDiagramParams 
 			- _placement = { CCommon_WINDOWPLACEMENT 
@@ -77,7 +77,7 @@ I-Logix-RPY-Archive version 8.6.0 * 4012249
 				- m_nRight = 877;
 				- m_nBottom = 574;
 			}
-			- _wasOpenedOnCloseProject = 0;
+			- _wasOpenedOnCloseProject = 1;
 			- _theDiagram = { IHandle 
 				- _m2Class = "IMSC";
 				- _filename = "";
@@ -86,10 +86,10 @@ I-Logix-RPY-Archive version 8.6.0 * 4012249
 				- _name = "__dispatchTask";
 				- _id = GUID 092a8afd-f471-11e1-895a-c82a143cf4b0;
 			}
-			- _UpLeft = 5 391 ;
-			- _DownRight = 815 780 ;
+			- _UpLeft = 755 527 ;
+			- _DownRight = 1698 980 ;
 			- _instanceName = "";
-			- m_nDiagramIndex = 0;
+			- m_nDiagramIndex = 1;
 		}
 		{ CGEMdiDiagramParams 
 			- _placement = { CCommon_WINDOWPLACEMENT 
@@ -105,7 +105,7 @@ I-Logix-RPY-Archive version 8.6.0 * 4012249
 				- m_nRight = 757;
 				- m_nBottom = 442;
 			}
-			- _wasOpenedOnCloseProject = 0;
+			- _wasOpenedOnCloseProject = 1;
 			- _theDiagram = { IHandle 
 				- _m2Class = "IMSC";
 				- _filename = "";
@@ -114,10 +114,10 @@ I-Logix-RPY-Archive version 8.6.0 * 4012249
 				- _name = "__fillExecutors";
 				- _id = GUID 9eb49cd8-f48c-11e1-ae5e-c82a143cf4b0;
 			}
-			- _UpLeft = 0 0 ;
-			- _DownRight = 689 331 ;
+			- _UpLeft = 0 410 ;
+			- _DownRight = 689 741 ;
 			- _instanceName = "";
-			- m_nDiagramIndex = 0;
+			- m_nDiagramIndex = 2;
 		}
 		{ CGEMdiDiagramParams 
 			- _placement = { CCommon_WINDOWPLACEMENT 
@@ -145,7 +145,7 @@ I-Logix-RPY-Archive version 8.6.0 * 4012249
 			- _UpLeft = 190 973 ;
 			- _DownRight = 879 1304 ;
 			- _instanceName = "";
-			- m_nDiagramIndex = 1;
+			- m_nDiagramIndex = 4;
 		}
 		{ CGEMdiDiagramParams 
 			- _placement = { CCommon_WINDOWPLACEMENT 
@@ -161,7 +161,7 @@ I-Logix-RPY-Archive version 8.6.0 * 4012249
 				- m_nRight = 817;
 				- m_nBottom = 508;
 			}
-			- _wasOpenedOnCloseProject = 0;
+			- _wasOpenedOnCloseProject = 1;
 			- _theDiagram = { IHandle 
 				- _m2Class = "IMSC";
 				- _filename = "";
@@ -170,8 +170,8 @@ I-Logix-RPY-Archive version 8.6.0 * 4012249
 				- _name = "msg_TaskDone";
 				- _id = GUID 5ac7af8e-ec5b-11e1-adbc-0022645fb25d;
 			}
-			- _UpLeft = 0 131 ;
-			- _DownRight = 689 462 ;
+			- _UpLeft = 8 954 ;
+			- _DownRight = 697 1285 ;
 			- _instanceName = "";
 			- m_nDiagramIndex = 0;
 		}
